@@ -1,4 +1,4 @@
-# PianoLeds
+<h1 id="introduction">Piano Leds</h1> 
 
 ![image](https://github.com/user-attachments/assets/359d1bb8-9a3f-46aa-8d08-0e0f64671444)
 
@@ -15,7 +15,7 @@ Neste projeto, cada tecla pressionada acionará um LED correspondente, permitind
 
 Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias criações!
 
-# Hardwares Utilizados
+<h1 id="hardwares">Hardwares Utilizados</h1> 
 
 ## Arduino: Leonardo
 
@@ -58,6 +58,19 @@ Você pode utilizar qualquer piano que possua saída MIDI.
 </div>
 
 Pode ser utilizado qualquer HUB USB, ele servirá para facilitar a conexão entre os dispositivos e evitar a ocupação de várias entradas no computador.
+
+<h1 id="softwares">Softwares Utilizados</h1>
+<h2 id="softwares-piano">Softwares Para Piano e Led</h2>
+<ul>
+<li>loopMIDI</li>
+<li>Midi-OX</li>
+<li>Hairless MIDI</li>
+</ul>
+
+<h2 id="softwares-video">Softwares Para Produção de Video</h2>
+
+
+
 
 
 
