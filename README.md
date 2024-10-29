@@ -1,6 +1,6 @@
 <h1 id="introduction">Piano Leds</h1> 
 
-![image](https://github.com/user-attachments/assets/359d1bb8-9a3f-46aa-8d08-0e0f64671444)
+<a href="https://www.youtube.com/watch?v=7a4QGCJzvwk"><img src ="https://github.com/user-attachments/assets/359d1bb8-9a3f-46aa-8d08-0e0f64671444"> </a>
 
 Bem-vindo ao meu projeto de integração entre Arduino, fita LED RGB e piano digital! Este repositório oferece um guia passo a passo para você aprender a:
 
@@ -19,9 +19,9 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
 
 ## Arduino: Leonardo
 
-<div align="center">
+<div align="start">
   
-<kbd> ![image](https://github.com/user-attachments/assets/2acb8638-9ad7-4238-b9e1-4f55a3258423) </kbd>
+<kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/2acb8638-9ad7-4238-b9e1-4f55a3258423" width="300px"> </a> </kbd>
 
 </div>
 
@@ -32,9 +32,9 @@ O Arduino Leonardo é uma opção acessível e atende muito bem aos requisitos d
 
 ## Fita LED Endereçável: WS2812B
 
-<div align="center">
-  
-<kbd> ![image](https://github.com/user-attachments/assets/8211fe75-e4f5-44bb-9106-f9aa4f318341)</kbd>
+<div align="start">
+
+<kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/8211fe75-e4f5-44bb-9106-f9aa4f318341" width="300px"> </a> </kbd>
 
 </div>
 
@@ -42,18 +42,18 @@ Você pode utilizar quaisquer <a href="https://github.com/FastLED/FastLED/wiki/C
 
 ## Piano Digital: Yamaha P-45
 
-<div align="center">
+<div align="start">
 
-<kbd> <img src="https://br.yamaha.com/pt/files/P-45_119_H_P-45_540_540_2b0fd46e557ff681962a196c0e4db30e.jpg?impolicy=resize&imwid=735&imhei=735" width="500px"> </kbd>
+<kbd> <img src="https://br.yamaha.com/pt/files/P-45_119_H_P-45_540_540_2b0fd46e557ff681962a196c0e4db30e.jpg?impolicy=resize&imwid=735&imhei=735" width="300px"> </kbd>
 
 </div>
 
 Você pode utilizar qualquer piano que possua saída MIDI.
 
 ## Hub USB (Opcional)
-<div align="center">
-  
-<kbd> ![image](https://github.com/user-attachments/assets/53c2e544-1451-4162-9ff6-3c1de8e8122b) </kbd>
+<div align="start">
+
+<kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/53c2e544-1451-4162-9ff6-3c1de8e8122b" width="300px"> </a> </kbd> 
 
 </div>
 
@@ -78,8 +78,8 @@ Você precisará para gravar sua performance em formato MIDI (nota por nota toca
 Você pode utilizar outros programas para realizar essa função.
 
 <h3>Biblioteca / Piano VST</h3>
-Caso você não haja possibilidade de gravar um som de qualidade do seu piano, você pode utilizar bibliotecas ou vst's de piano para gerar um audio limpo e claro. Você pode pesquisar por "Free Piano VST", para encontrar softwares gratuitos, ou utilizar um pago.
-A Instalação de cada um pode variar, porém para importar no <a href="#reaper">Reaper</a> você precisará que a instalação do seu VST inclua salvar como plugin.
+Caso você não haja possibilidade de gravar um som de qualidade do seu piano, você pode utilizar bibliotecas ou VST de piano para gerar um audio limpo e claro. Você pode pesquisar por "Free Piano VST", para encontrar softwares gratuitos, ou utilizar um pago.
+A Instalação de cada um pode variar, porém para importar no <a href="/#reaper">Reaper</a> você precisará que a instalação do seu VST inclua salvar como plugin.
 
 <H3>Visualizador MIDI</H3>
 <ul>
@@ -90,8 +90,10 @@ Você também pode utilizar outros visualizadores, como <a href="https://synthes
 <h3>Editor de Video</h3>
 
 <ul>
-<li><a href="https://www.seemusicapp.com">SeeMusic:</a> Davinci Resolve: </li>
+<li><a href="https://www.seemusicapp.com">Davinci Resolve: </a> Utilizado para criar o video final, juntando todos os arquivos produzidos anteriormente.</li>
 </ul>
+
+A versão gratuita desse software permite fazer todas as edições necessárias para a produção de um vídeo, como o exemplo apresentado neste repositório. Porém, se você tiver experiência, pode utilizar qualquer outro editor de vídeo para realizar essa função.
 
 
 
