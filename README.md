@@ -68,11 +68,19 @@ Pode ser utilizado qualquer HUB USB, ele servirá para facilitar a conexão entr
 </ul>
 
 <h2 id="softwares-video">Softwares Para Produção de Video</h2>
+
+<h3>Gravador MIDI / Editor de Audio</h3>
 <ul>
-<li><a href="">Gravador MIDI / Editor de Audio</a> </li>
-<li><a href="">Visualizador MIDI</a> </li>
-<li><a href="">Edição de Video</a> </li>
+  <li><a href="https://www.reaper.fm/">Reaper:</a> Gravador e Editor de Midi/Audio</li>
 </ul>
+
+Você precisará de um programa para gravar sua performance em formato MIDI (nota por nota que você tocou) para gerar a visualização em vídeo. Opcionalmente, você também pode utilizar um editor de áudio/MIDI para melhorar a qualidade do seu som.
+
+<H3>Visualizador MIDI</H3>
+<ul>
+<li><a href="https://www.seemusicapp.com">SeeMusic:</a> Visualizador de Notas MIDI (VFX)</li>
+</ul>
+Você também pode utilizar outros visualizadores, como <a href="https://synthesiagame.com/download">Synthesia</a> e <a href="https://embers.app/">Embers</a>
 
 
 
