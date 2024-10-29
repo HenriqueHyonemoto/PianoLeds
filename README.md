@@ -20,51 +20,64 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
 ## Arduino: Leonardo
 
 <div align="start">
-  
+<ul>
 <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/2acb8638-9ad7-4238-b9e1-4f55a3258423" width="300px"> </a> </kbd>
-
+</ul>
 </div>
+<ul>
+O Arduino Leonardo é uma opção acessível e atende muito bem aos requisitos do projeto, mas você também pode utilizar outros modelos de Arduino. <br><br>
+  
 
-O Arduino Leonardo é uma opção acessível e atende muito bem aos requisitos do projeto, mas você também pode utilizar outros modelos de Arduino.
-
+  
 > [!WARNING]
 > Não é recomendado o uso do Arduino UNO ou semelhantes, pois o seu baud rate não atende aos requisitos do projeto, causando problemas de latência e mau funcionamento.
+</ul>
 
 ## Fita LED Endereçável: WS2812B
 
 <div align="start">
-
+<ul>
 <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/8211fe75-e4f5-44bb-9106-f9aa4f318341" width="300px"> </a> </kbd>
-
+</ul>
 </div>
-
+<ul>
 Você pode utilizar quaisquer <a href="https://github.com/FastLED/FastLED/wiki/Chipset-reference">fitas LED suportadas</a> pela biblioteca utilizada.
+</ul>
 
 ## Piano Digital: Yamaha P-45
 
 <div align="start">
-
+<ul>
 <kbd> <img src="https://br.yamaha.com/pt/files/P-45_119_H_P-45_540_540_2b0fd46e557ff681962a196c0e4db30e.jpg?impolicy=resize&imwid=735&imhei=735" width="300px"> </kbd>
-
+</ul>
 </div>
-
+<ul>
 Você pode utilizar qualquer piano que possua saída MIDI.
+</ul>
 
 ## Hub USB (Opcional)
 <div align="start">
-
+<ul>
 <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/53c2e544-1451-4162-9ff6-3c1de8e8122b" width="300px"> </a> </kbd> 
-
+</ul>
 </div>
-
+<ul>
 Pode ser utilizado qualquer HUB USB, ele servirá para facilitar a conexão entre os dispositivos e evitar a ocupação de várias entradas no computador.
+</ul>
 
 <h1 id="softwares">Softwares Utilizados</h1>
 <h2 id="softwares-piano">Softwares Para Piano e Led</h2>
 <ul>
-<li><a href="https://www.tobias-erichsen.de/software/loopmidi.html">loopMIDI:</a> Para a criação de múltiplas portas MIDI adicionais no computador.</li>
-<li><a href="https://www.tobias-erichsen.de/software/loopmidi.html">Midi-OX:</a> Roteia as mensagens MIDI enviadas pelo piano para as portas criadas.</li>
-<li><a href="https://www.tobias-erichsen.de/software/loopmidi.html">Hairless MIDI:</a> Atua como uma ponte serial, encarregada de transmitir as mensagens MIDI do piano para a porta serial COM do Arduino.</li>
+  
+<kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/f99a05d3-f861-4944-a017-013648497d58" width="300px"> </a> </kbd> 
+<a href="https://www.tobias-erichsen.de/software/loopmidi.html">loopMIDI:</a> Para a criação de múltiplas portas MIDI adicionais no computador.
+
+  <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/12de1c16-30ec-4e03-8994-f3098215ae6e" width="300px"> </a> </kbd>
+<a href="https://www.tobias-erichsen.de/software/loopmidi.html">Midi-OX:</a> Roteia as mensagens MIDI enviadas pelo piano para as portas criadas.
+
+  <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/49d1a5e3-0669-44a0-afe0-c71f7e7f8490" width="300px"> </a> </kbd>
+<a href="https://www.tobias-erichsen.de/software/loopmidi.html">Hairless MIDI:</a> Transmite as mensagens MIDI do piano para a porta serial COM do Arduino.
+
 </ul>
 
 <h2 id="softwares-video">Softwares Para Produção de Video</h2>
