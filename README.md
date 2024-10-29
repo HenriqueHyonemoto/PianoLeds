@@ -62,12 +62,17 @@ Pode ser utilizado qualquer HUB USB, ele servirá para facilitar a conexão entr
 <h1 id="softwares">Softwares Utilizados</h1>
 <h2 id="softwares-piano">Softwares Para Piano e Led</h2>
 <ul>
-<li>loopMIDI</li>
-<li>Midi-OX</li>
-<li>Hairless MIDI</li>
+<li><a href="https://www.tobias-erichsen.de/software/loopmidi.html">loopMIDI:</a> Para a criação de múltiplas portas MIDI adicionais no computador.</li>
+<li><a href="https://www.tobias-erichsen.de/software/loopmidi.html">Midi-OX:</a> Roteia as mensagens MIDI enviadas pelo piano para as portas criadas.</li>
+<li><a href="https://www.tobias-erichsen.de/software/loopmidi.html">Hairless MIDI:</a> Atua como uma ponte serial, encarregada de transmitir as mensagens MIDI do piano para a porta serial COM do Arduino.</li>
 </ul>
 
 <h2 id="softwares-video">Softwares Para Produção de Video</h2>
+<ul>
+<li><a href="">Gravador MIDI / Editor de Audio</a> </li>
+<li><a href="">Visualizador MIDI</a> </li>
+<li><a href="">Edição de Video</a> </li>
+</ul>
 
 
 
