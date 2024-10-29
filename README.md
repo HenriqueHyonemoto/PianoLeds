@@ -71,18 +71,27 @@ Pode ser utilizado qualquer HUB USB, ele servirá para facilitar a conexão entr
 
 <h3>Gravador MIDI / Editor de Audio</h3>
 <ul>
-  <li><a href="https://www.reaper.fm/">Reaper:</a> Gravador e Editor de Midi/Audio</li>
+  <li id="reaper"><a href="https://www.reaper.fm/">Reaper:</a> Gravador MIDI e Editor de Audio</li>
 </ul>
 
-Você precisará de um programa para gravar sua performance em formato MIDI (nota por nota que você tocou) para gerar a visualização em vídeo. Opcionalmente, você também pode utilizar um editor de áudio/MIDI para melhorar a qualidade do seu som.
+Você precisará para gravar sua performance em formato MIDI (nota por nota tocada) para gerar a visualização em vídeo, e também precisará renderizar o audio. (Caso não grave o som fisicamente)<br>
+Você pode utilizar outros programas para realizar essa função.
+
+<h3>Biblioteca / Piano VST</h3>
+Caso você não haja possibilidade de gravar um som de qualidade do seu piano, você pode utilizar bibliotecas ou vst's de piano para gerar um audio limpo e claro. Você pode pesquisar por "Free Piano VST", para encontrar softwares gratuitos, ou utilizar um pago.
+A Instalação de cada um pode variar, porém para importar no <a href="#reaper">Reaper</a> você precisará que a instalação do seu VST inclua salvar como plugin.
 
 <H3>Visualizador MIDI</H3>
 <ul>
 <li><a href="https://www.seemusicapp.com">SeeMusic:</a> Visualizador de Notas MIDI (VFX)</li>
 </ul>
-Você também pode utilizar outros visualizadores, como <a href="https://synthesiagame.com/download">Synthesia</a> e <a href="https://embers.app/">Embers</a>
+Você também pode utilizar outros visualizadores, como <a href="https://synthesiagame.com/download">Synthesia</a> e <a href="https://embers.app/">Embers</a> mas tenha em mente que esses softwares são pagos, embora você possa usar o Embers e o SeeMusic com marca d'água.
 
+<h3>Editor de Video</h3>
 
+<ul>
+<li><a href="https://www.seemusicapp.com">SeeMusic:</a> Davinci Resolve: </li>
+</ul>
 
 
 
