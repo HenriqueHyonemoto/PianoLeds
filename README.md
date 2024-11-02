@@ -277,8 +277,9 @@ Uma das suas entradas criadas pelo loopMIDI deve ser selecionada no campo "MIDI 
 
 </ul>
 <h1>Configurando os Softwares para edição de video.</h1>
-
+<ul>
 <h2>Reaper</h2>
+  
 De acordo com a ilustração da Figura Abaixo, clique duplo na região vazia, ou com o botão direito, e escolha a opção "Insert New Track" para criar uma faixa onde o MIDI será gravado, conforme orientado na seta 1.
 
 <kbd> <img src="https://github.com/user-attachments/assets/6ab0fa56-c768-432f-882c-b188672cf037" width="600px"> </kbd>
@@ -304,7 +305,40 @@ Conforme a Figura abaixo, uma janela de opções para exportação é aberta, vo
 <kbd> <img src="https://github.com/user-attachments/assets/6d2815cc-02cc-4413-adf7-4268c110f678" width="600px"> </kbd>
 
 <h2>See Music</h2>
+
+Para importar o arquivo MIDI previamente salvo pelo REAPER, siga as instruções na interface do software. Isso envolve clicar no ícone de adição ("+") localizado no canto superior esquerdo da tela, seguindo a indicação da seta 1 na figura abaixo. Em seguida, selecione o arquivo MIDI desejado para importação. Essa ação permite integrar o conteúdo musical gravado anteriormente ao ambiente de trabalho do software, facilitando o prosseguimento das etapas de edição e visualização sincronizada com a performance musical.
+
+<kbd> <img src="https://github.com/user-attachments/assets/a318700d-1dc9-47ce-88d8-1008c2469454" width="600px"> </kbd>
+
+Após importar o arquivo MIDI, acessível através da ação evidenciada pela seta 1 da figura abaixo, na interface do software, você poderá personalizar as cores das notas e das partículas clicando no ícone de figuras coloridas. É possível escolher entre uma cor única, degradê, várias cores alternadas, cores separadas por região das teclas ou por canais. Essa funcionalidade oferece amplas possibilidades de ajuste visual para a representação das notas musicais dentro do ambiente do software.
+
+<kbd> <img src="https://github.com/user-attachments/assets/2ccb907c-b66b-4623-8853-7dfee03129c2" width="600px"> </kbd>
+
+Para ajustar a quantidade de partículas, velocidade, direção na qual as notas caem, brilho, textura, formatos e outras opções, é possível acessar o quarto item do menu, de acordo com a representação da seta 1 na Figura abaixo, que disponibiliza diversas opções de personalização.
+
+<kbd> <img src="https://github.com/user-attachments/assets/d7af2b94-c04d-421f-ab76-0b8f54c46705" width="600px"> </kbd>
+
+Feitas as configurações e ajustes visuais no SeeMusic, você pode renderizar o vídeo clicando no ícone da câmera e depois em "Render". Se necessário, é possível alterar as configurações de vídeo clicando no botão de configurações (botão do meio).
+
+<kbd> <img src="https://github.com/user-attachments/assets/6dc9a8f4-a43e-4b78-b631-de5f59b910ea" width="600px"> </kbd>
+
+Caso esteja utilizando a versão gratuita do programa, o vídeo será renderizado com uma marca d'água.
+
 <h2>DaVinciResolve</h2>
+
+No software, importamos o vídeo da gravação do piano e o vídeo gerado pelo SeeMusic. Foi necessário cortar a parte inferior do vídeo de visualização utilizando a função de "cropping", de modo que ele pudesse ser posicionado acima do piano para criar uma conexão visual coesa.
+
+<kbd> <img src="https://github.com/user-attachments/assets/cddf7f7d-ea6f-4784-91ae-4f0ebc903705" width="600px"> </kbd>
+
+<kbd> <img src="https://github.com/user-attachments/assets/2d6534fb-230d-4b19-b790-d31c04c161a1" width="600px"> </kbd>
+
+Em seguida, realizamos ajustes na saturação para tornar as cores mais vivas ou mais escuras. Também é possível alterar a matriz de cores e ajustar o brilho conforme necessário.
+
+<kbd> <img src="https://github.com/user-attachments/assets/1dcd58f1-1284-4696-b367-584817ceb795" width="600px"> </kbd>
+
+Para renderizar o vídeo, clique no ícone conforme indicado na seta 1 da Figura abaixo. O segundo passo é a seleção das predefinições de vídeo, que podem ser para redes mais comuns como o Youtube e TikTok, de acordo com a ilustração da seta 2. Em seguida, ao clicar em "Add to Render Queue", conforme indicado pela seta 3, adicione o vídeo à fila de renderização. Finalmente, ao clicar em "Render All", de acordo com seta 4, iniciará o processo de salvamento do vídeo. É importante observar que este processo pode ser demorado, dependendo da qualidade e das configurações de vídeo selecionadas.
+
+<kbd> <img src="https://github.com/user-attachments/assets/2cf93ff0-b67b-4e72-bc4b-9c7747fab600" width="600px"> </kbd>
 
 </ul>
 
