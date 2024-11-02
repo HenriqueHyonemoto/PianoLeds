@@ -147,11 +147,12 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 
 <ul>
   
+<kbd> <img src="https://github.com/user-attachments/assets/a847d7d4-9165-4da8-a5f8-19374bc844a2" width="400px"> </kbd>
+*Entrada USB-B do Piano Digital.
+
 <li><strong>O Piano:</STRONG> É Conectado por um cabo <STRONG>USB A-B</STRONG> no HubUSB.</li>
 
-<kbd> <img src="https://github.com/user-attachments/assets/a847d7d4-9165-4da8-a5f8-19374bc844a2" width="400px"> </kbd>
 
-*Entrada USB-B do Piano Digital.
 
 </ul>
 
@@ -159,9 +160,9 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 
 <ul>
 
-<li><strong>Arduino:</STRONG> É conectado por um cabo <STRONG>USB 2.0 A/B</STRONG> no HubUSB.</li>
-
 <kbd> <img src="https://github.com/user-attachments/assets/a0c9eef7-392f-4216-bfeb-7e950e8d3b49" width="300px"> </kbd>
+
+<li><strong>Arduino:</STRONG> É conectado por um cabo <STRONG>USB 2.0 A/B</STRONG> no HubUSB.</li>
 
 </ul>
 
@@ -169,31 +170,31 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 
 <ul>
 
-<LI>Utilize o lado da fita que possui conector <strong>Fêmea</strong>, pois o código foi estruturado com base nesse lado.</LI>
-
 <kbd><img src="https://github.com/user-attachments/assets/c04cc648-48d3-472c-898b-933dc06eb27b" width="400px"></kbd>
 
+<LI>Utilize o lado da fita que possui conector <strong>Fêmea</strong>, pois o código foi estruturado com base nesse lado.</LI>
 
 <li><STRONG>A Fita Led</STRONG> Possui dois grupos de cabo separados.</li>
 <h3><strong>Grupo 1:</strong> Um Cabo <strong>Branco(-)</strong> e Um Cabo <strong>Vermelho(+)</strong> (Cabos de Alimentação).</h3>
 <ul>
-  <li>Foi soldado em um Conector USB, e conectado no HubUSB (A Fita led precisa dessa fonte de alimentação, pois somente a do arduino não é o suficiente).</li>
 
   <kbd> <img src="https://github.com/user-attachments/assets/3668830c-486d-424f-a873-d288978ecc05" width="400px"> </kbd>
+
+  <li>Foi soldado em um Conector USB, e conectado no HubUSB (A Fita led precisa dessa fonte de alimentação, pois somente a do arduino não é o suficiente).</li>
   
 </ul>
 <h3><strong>Grupo 2:</strong> Um Cabo <strong>Branco(-)</strong>, Um cabo <strong>Vermelho(+)</strong> e um cabo <strong>Verde</strong> (Cabo de Dados).</h3>
 <ul>
-  <li>Conectar adaptador que separa o grupo de fios, em fios individuais no conector Fêmea da Fita Led.</li>
+  
   <kbd> <img src="https://github.com/user-attachments/assets/9a707d9c-be64-40b4-bcb5-4480620146c1" width="400px"> </kbd>
-  <li>É recomendado encapar os conectores dos cabos <strong>branco e vermelho</strong> com fita isolante, para evitar curto, já que não serão utilizados.</li>
-  <li>O conector <strong>Verde</strong> (Cabo de Dados) é conectado em uma das saidas <STRONG>Digital (PWM)</STRONG> do Arduino (Recomendo a 7, pois é a que foi utilizada no código).</li>
+  
+  <li>Conectar o adaptador que separa o grupo de fios, em fios individuais, no conector Fêmea da Fita Led.</li><br>
 
   <kbd> <img src="https://github.com/user-attachments/assets/383dc900-95ca-4546-8124-276ae191e5e7" width="400px"> </kbd>
 
+  <li>É recomendado encapar os conectores dos cabos <strong>branco e vermelho</strong> com fita isolante, para evitar curto, já que não serão utilizados.</li>
+  <li>O conector <strong>Verde</strong> (Cabo de Dados) é conectado em uma das saidas <STRONG>Digital (PWM)</STRONG> do Arduino (Recomendo a 7, pois é a que foi utilizada no código).</li>
 
-
-    
 </ul>
 
 </ul>
@@ -210,12 +211,34 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
   
 </ul>
 
-<h1>Configurando os Softwares</h1>
+<h1>Configurando os Softwares para controle de LEDS</h1>
 
 <ul>
 <div align="center">
 <kbd> <img src="https://github.com/user-attachments/assets/bed53266-9ea8-43e8-80cf-7427a717f536" width="600px"> </kbd>
 </div>
+
+<h2>Arduino IDE</h2>
+<h2>loopMIDI</h2>
+O usuário utilizará o software loopMIDI para criar as portas MIDI, conforme ilustrado na Figura abaixo, o usuário ao clicar no botão "Add Port", de acordo com a seta 1, adicionará novas portas MIDI ao conjunto disponível no computador.
+
+<kbd> <img src="https://github.com/user-attachments/assets/3c498acb-eaf5-43f2-a5ef-241b51f5613c" width="600px"> </kbd>
+
+Feito isso, para renomear as portas, o usuário selecionará a porta desejada, indicado pela seta 1, ilustrado na figura abaixo, e definirá um novo nome no campo "New port-name", conforme indicado pela seta 2. A criação de duas portas é suficiente para garantir o funcionamento do sistema de LEDs e permitir o uso das mensagens MIDI por todos os programas que as utilizam.
+
+<kbd> <img src="https://github.com/user-attachments/assets/4b29a9c3-29d7-4681-9388-e661e02ab6fe" width="600px"> </kbd>
+
+Para apagar uma porta, basta selecioná-la e clicar no botão de menos, O botão com símbolo de quadrado muta a porta selecionada, fazendo com que ela não receba mais inputs MIDI
+
+<h2>Midi-OX</h2>
+<h2>HairlessMIDI</h2>
+
+<h1>Configurando os Softwares para edição de video.</h1>
+
+<h2>Reaper</h2>
+<h2>See Music</h2>
+<h2>DaVinciResolve</h2>
+
 </ul>
 
 
