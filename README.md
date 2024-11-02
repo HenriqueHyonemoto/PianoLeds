@@ -1,8 +1,12 @@
 <h1 id="introduction">Piano Leds</h1> 
 
+Bem-vindo ao meu projeto de integração entre Arduino, fita LED e um Piano!
+
 <a href="https://www.youtube.com/watch?v=7a4QGCJzvwk"><img src ="https://github.com/user-attachments/assets/359d1bb8-9a3f-46aa-8d08-0e0f64671444"> </a>
 
-Bem-vindo ao meu projeto de integração entre Arduino, fita LED RGB e piano digital! Este repositório oferece um guia passo a passo para você aprender a:
+Este projeto tem como propósito criar uma experiência imersiva e visual ao tocar piano, onde cada tecla pressionada acende LEDs correspondentes em uma fita RGB, sincronizando luz e som em uma performance única. Além disso, ele possibilita a produção de vídeos artísticos que combinam a música com efeitos de iluminação, resultando em uma obra visual e sonora cativante! <br>
+
+Este repositório oferece um guia passo a passo para você aprender a:
 
 <ul> 
   <li>Utilizar o Arduino: Configure e programe seu Arduino para comunicação com o piano digital via MIDI.</li> 
@@ -11,8 +15,6 @@ Bem-vindo ao meu projeto de integração entre Arduino, fita LED RGB e piano dig
   <li>Edição de Vídeo: Dicas e técnicas para capturar e editar sua apresentação, destacando a interação entre a música e a iluminação.</li> 
 </ul>
   
-Neste projeto, cada tecla pressionada acionará um LED correspondente, permitindo uma experiência visual que complementa sua performance musical. Perfeito para músicos, criadores e entusiastas de tecnologia!
-
 Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias criações!
 
 <h1 id="hardwares">Hardwares Utilizados</h1> 
@@ -68,6 +70,11 @@ Pode ser utilizado qualquer HUB USB, ele servirá para facilitar a conexão entr
 <h1 id="softwares">Softwares Utilizados</h1>
 <h2 id="softwares-piano">Softwares Para Piano e Led</h2>
 <ul>
+
+<kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/3738a4d7-c9cc-4884-8814-cb0bdf4a693a" width="200px"> </a> </kbd> 
+
+<a href="https://www.arduino.cc/en/software">Arduino IDE:</a> Para utilizar o código do projeto.
+
   
 <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/f99a05d3-f861-4944-a017-013648497d58" width="200px"> </a> </kbd> 
 
@@ -98,23 +105,30 @@ Você pode utilizar outros programas para realizar essa função.
 
 <h3>Biblioteca / Piano VST</h3>
 <ul>
-<kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/95e7d65a-0c0d-43bd-9375-22628bd457fd" width="300px"> </a> </kbd>
+<kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/95e7d65a-0c0d-43bd-9375-22628bd457fd" width="600px"> </a> </kbd>
 
 Caso não haja possibilidade de gravar um som de qualidade do seu piano, você pode utilizar bibliotecas ou VST de piano para gerar um audio limpo e claro. Você pode pesquisar por "Free Piano VST", para encontrar softwares gratuitos, ou utilizar um pago.
 A Instalação de cada um pode variar, porém para importar no <a href="/#reaper">Reaper</a> você precisará que a instalação do seu VST inclua salvar como plugin.
 </ul>
 
 <H3>Visualizador MIDI</H3>
+
 <ul>
-<li><a href="https://www.seemusicapp.com">SeeMusic:</a> Visualizador de Notas MIDI (VFX)</li>
-</ul>
+<kbd> <img src="https://github.com/user-attachments/assets/69144623-7cbd-47d6-9c5a-bb1d4a670feb" width="600px"> </kbd>
+  
+<li><a href="https://www.seemusicapp.com">SeeMusic:</a> Visualizador de Notas MIDI (VFX)</li> 
+<br>
 Você também pode utilizar outros visualizadores, como <a href="https://synthesiagame.com/download">Synthesia</a> e <a href="https://embers.app/">Embers</a> mas tenha em mente que esses softwares são pagos, embora você possa usar o Embers e o SeeMusic com marca d'água.
+
+</ul>
 
 <h3>Editor de Video</h3>
 
 <ul>
-  
-<a href="https://www.seemusicapp.com">Davinci Resolve: </a> Utilizado para criar o video final, juntando todos os arquivos produzidos anteriormente.
+<kbd><img src="https://github.com/user-attachments/assets/124a451e-4805-4fa5-83c7-1c541ae90f35" width="600px"></kbd>
+
+<a href="https://www.blackmagicdesign.com/br/products/davinciresolve">Davinci Resolve: </a> Utilizado para criar o video final, juntando todos os arquivos produzidos anteriormente.
+
 </ul>
 
 A versão gratuita desse software permite fazer todas as edições necessárias para a produção de um vídeo, como o exemplo apresentado neste repositório. Porém, se você tiver experiência, pode utilizar qualquer outro editor de vídeo para realizar essa função.
