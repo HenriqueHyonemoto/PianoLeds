@@ -140,14 +140,16 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 <kbd> <img src="https://github.com/user-attachments/assets/e02bffd7-d3c7-4d57-ae8a-f942f9e9a6fc" width="600px"> </kbd>
 </div>
 <br>
-<li>Piano: é Conectado por um cabo <STRONG>USB A-B</STRONG> no HubUSB</li>
-<li>Arduino: é conectado por um cabo <STRONG>USB 2.0 A/B</STRONG> NO HubUSB</li>
-<li>Fita Led: O cabo de dados é conectado na saida <STRONG>Digital (PWM)</STRONG> do Arduino</li>
-<li>Fita Led: O cabo de alimentação é conectado no HubUSB (No caso da minha fita, são dois pinos, um branco e um vermelho, eu os soldei em um conector USB para conecta-lo na fita.</li>
-<li>HubUSB: é conectado no PC</li>
+<li><strong>Piano:</STRONG> É Conectado por um cabo <STRONG>USB A-B</STRONG> no HubUSB</li>
+<li><strong>Arduino:</STRONG> É conectado por um cabo <STRONG>USB 2.0 A/B</STRONG> no HubUSB</li>
+<li><STRONG>Fita Led:</STRONG> O cabo de dados é conectado em uma das saidas <STRONG>Digital (PWM)</STRONG> do Arduino (Recomendo a 7, pois é a que utilizei no código)</li>
+<li><strong>Fita Led:</STRONG> O cabo de alimentação é conectado no HubUSB (No caso da minha fita, são dois pinos, um branco e um vermelho, eu os soldei em um conector USB para conecta-lo no HUB.</li>
+<li><strong>HubUSB:</STRONG> é conectado no PC</li>
 <br>
+  
 > [!NOTE]  
 > Você pode substituir o HubUSB por conectar diretamente no PC, porém não recomendo pois isso ocupará muitas entradas.
+  
 </ul>
 
 <h1>Configurando os Softwares</h1>
