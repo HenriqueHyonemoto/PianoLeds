@@ -168,20 +168,30 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 
 <ul>
 
+<LI>Utilize o lado da fita que possui conector <strong>Fêmea</strong>, pois o código foi estruturado com base nesse lado.</LI>
+
+<kbd><img src="https://github.com/user-attachments/assets/c04cc648-48d3-472c-898b-933dc06eb27b" width="400px"></kbd>
+
+
 <li><STRONG>A Fita Led</STRONG> Possui dois grupos de cabo separados</li>
+<h3><strong>Grupo 1:</strong> Um Cabo <strong>Branco(-)</strong> e Um Cabo <strong>Vermelho(+)</strong> (Cabos de Alimentação)</h3>
 <ul>
-  <li><strong>Grupo 1:</strong> Um Cabo <strong>Branco(-)</strong> e Um Cabo <strong>Vermelho(+)</strong> (Cabos de Alimentação)</li>
   <li>Foi soldado em um Conector USB, e conectado no HubUSB (A Fita led precisa dessa fonte de alimentação, pois somente a do arduino não é o suficiente)</li>
 
   <kbd> <img src="https://github.com/user-attachments/assets/3668830c-486d-424f-a873-d288978ecc05" width="400px"> </kbd>
   
 </ul>
+<h3><strong>Grupo 2:</strong> Um Cabo <strong>Branco(-)</strong>, Um cabo <strong>Vermelho(+)</strong> e um cabo <strong>Verde</strong> (Cabo de Dados)</h3>
 <ul>
-  <li><strong>Grupo 2:</strong> Um Cabo <strong>Branco(-)</strong>, Um cabo <strong>Vermelho(+)</strong> e um cabo <strong>Verde</strong> (Cabo de Dados)</li>
+  <li>Conectar adaptador que separa o grupo de fios, em fios individuais no conector Fêmea da Fita Led</li>
+  <kbd> <img src="https://github.com/user-attachments/assets/9a707d9c-be64-40b4-bcb5-4480620146c1" width="400px"> </kbd>
   <li>É recomendado encapar os conectores dos cabos <strong>branco e vermelho</strong> com fita isolante, para evitar curto, já que não serão utilizados</li>
-  <li>O conector <strong>Verde</strong> (Cabo de Dados) é conectado em uma das saidas <STRONG>Digital (PWM)</STRONG> do Arduino (Recomendo a 7, pois é a que utilizei no código)</li>
+  <li>O conector <strong>Verde</strong> (Cabo de Dados) é conectado em uma das saidas <STRONG>Digital (PWM)</STRONG> do Arduino (Recomendo a 7, pois é a que foi utilizada no código)</li>
 
-  <kbd> <img src="https://github.com/user-attachments/assets/2c033e45-da97-4cda-9c7d-b6b9ae15a642" width="400px"> </kbd>
+  <kbd> <img src="https://github.com/user-attachments/assets/383dc900-95ca-4546-8124-276ae191e5e7" width="400px"> </kbd>
+
+
+
     
 </ul>
 
