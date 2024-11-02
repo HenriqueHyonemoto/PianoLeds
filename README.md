@@ -163,8 +163,6 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 
 <li><strong>O Piano:</STRONG> É Conectado por um cabo <STRONG>USB A-B</STRONG> no HubUSB.</li>
 
-
-
 </ul>
 
 <h2>Arduino</h2>
@@ -245,9 +243,6 @@ Você pode verificar se está tudo certo, se o simbolo do USB estiver Verde, (co
 
 <kbd> <a href=""><img src ="https://github.com/user-attachments/assets/45f6dd6e-be03-4b07-aba3-0f9c42d817d3" width="600px"> </a> </kbd> 
 
-
-
-
 Agora, vamos baixar as bibliotecas para controlar a fita e receber comandos do piano.
 
 Clique no simbolo de livros, e pesquise o nome das duas bibliotecas, e as instale.
@@ -269,7 +264,9 @@ Agora pressione o botão Verify/Compile (Seta 1, Para compilar e verificar se o 
 
 <kbd> <a href=""><img src ="https://github.com/user-attachments/assets/030068bc-08c4-4330-b7b2-4a57ffeee5d1" width="400px"> </a> </kbd> 
 
+Apesar de parecer uma mensagem de erro, é assim que aparece quando esta tudo certo.
 
+<kbd> <a href=""><img src ="https://github.com/user-attachments/assets/a02d5cb9-e14d-4275-bd33-5f062c91d6c8" width="800px"> </a> </kbd> 
 
 <ul>
 </ul>
