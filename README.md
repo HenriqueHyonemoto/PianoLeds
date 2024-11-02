@@ -160,7 +160,7 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 
 <li><strong>Arduino:</STRONG> É conectado por um cabo <STRONG>USB 2.0 A/B</STRONG> no HubUSB</li>
 
-<kbd> <img src="https://github.com/user-attachments/assets/c74271ce-881f-4920-90d7-1919b954b6c9" width="300px"> </kbd>
+<kbd> <img src="https://github.com/user-attachments/assets/a0c9eef7-392f-4216-bfeb-7e950e8d3b49" width="300px"> </kbd>
 
 </ul>
 
