@@ -23,14 +23,15 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
 
 <div align="start">
 <ul>
+  
 <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/2acb8638-9ad7-4238-b9e1-4f55a3258423" width="300px"> </a> </kbd>
+
+O Arduino Leonardo é uma opção acessível e atende muito bem aos requisitos do projeto, mas você também pode utilizar outros modelos de Arduino. <br>
+
 </ul>
 </div>
 <ul>
-O Arduino Leonardo é uma opção acessível e atende muito bem aos requisitos do projeto, mas você também pode utilizar outros modelos de Arduino. <br><br>
-  
 
-  
 > [!WARNING]
 > Não é recomendado o uso do Arduino UNO ou semelhantes, pois o seu baud rate não atende aos requisitos do projeto, causando problemas de latência e mau funcionamento.
 </ul>
@@ -39,12 +40,13 @@ O Arduino Leonardo é uma opção acessível e atende muito bem aos requisitos d
 
 <div align="start">
 <ul>
+
 <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/8211fe75-e4f5-44bb-9106-f9aa4f318341" width="300px"> </a> </kbd>
+
+Você pode utilizar quaisquer <a href="https://github.com/FastLED/FastLED/wiki/Chipset-reference">fitas LED suportadas</a> pela biblioteca utilizada.
+
 </ul>
 </div>
-<ul>
-Você pode utilizar quaisquer <a href="https://github.com/FastLED/FastLED/wiki/Chipset-reference">fitas LED suportadas</a> pela biblioteca utilizada.
-</ul>
 
 ## Piano Digital: Yamaha P-45
 
@@ -69,32 +71,41 @@ Pode ser utilizado qualquer HUB USB, ele servirá para facilitar a conexão entr
 
 <h1 id="softwares">Softwares Utilizados</h1>
 <h2 id="softwares-piano">Softwares Para Piano e Led</h2>
+
 <ul>
+  
+<h3><a href="https://www.arduino.cc/en/software">Arduino IDE</a></h3>
 
 <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/3738a4d7-c9cc-4884-8814-cb0bdf4a693a" width="200px"> </a> </kbd> 
 
-<a href="https://www.arduino.cc/en/software">Arduino IDE:</a> Para utilizar o código do projeto.
+Para utilizar o código do projeto.
 
-  
+<h3><a href="https://www.tobias-erichsen.de/software/loopmidi.html">loopMIDI</a></h3>
+
 <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/f99a05d3-f861-4944-a017-013648497d58" width="200px"> </a> </kbd> 
 
-<a href="https://www.tobias-erichsen.de/software/loopmidi.html">loopMIDI:</a> Para a criação de múltiplas portas MIDI adicionais no computador.
+Para a criação de múltiplas portas MIDI adicionais no computador.
 
-  <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/12de1c16-30ec-4e03-8994-f3098215ae6e" width="200px"> </a> </kbd>
-  
-<a href="https://www.tobias-erichsen.de/software/loopmidi.html">Midi-OX:</a> Roteia as mensagens MIDI enviadas pelo piano para as portas criadas.
+<h3><a href="http://www.midiox.com">Midi-OX</a> </h3>
 
-  <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/49d1a5e3-0669-44a0-afe0-c71f7e7f8490" width="200px"> </a> </kbd>
-  
-<a href="https://www.tobias-erichsen.de/software/loopmidi.html">Hairless MIDI:</a> Transmite as mensagens MIDI do piano para a porta serial COM do Arduino.
+<kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/12de1c16-30ec-4e03-8994-f3098215ae6e" width="200px"> </a> </kbd>
+
+Roteia as mensagens MIDI enviadas pelo piano para as portas criadas.
+
+<h3><a href="https://projectgus.github.io/hairless-midiserial/">Hairless MIDI</a></h3>
+
+<kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/49d1a5e3-0669-44a0-afe0-c71f7e7f8490" width="200px"> </a> </kbd>
+
+Transmite as mensagens MIDI do piano para a porta serial COM do Arduino.
 
 </ul>
 
 <h2 id="softwares-video">Softwares Para Produção de Video</h2>
 
+<ul>
+  
 <h3>Gravador MIDI / Editor de Audio</h3>
 
-<ul>
   <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/5701b300-ebec-4603-a015-e0e26693a472" width="200px"> </a> </kbd>
   
   <a id="reaper" href="https://www.reaper.fm/">Reaper:</a> Gravador MIDI e Editor de Audio. <br>
@@ -117,7 +128,7 @@ A Instalação de cada um pode variar, porém para importar no <a href="/#reaper
 <ul>
 <kbd> <img src="https://github.com/user-attachments/assets/69144623-7cbd-47d6-9c5a-bb1d4a670feb" width="600px"> </kbd>
   
-<li><a href="https://www.seemusicapp.com">SeeMusic:</a> Visualizador de Notas MIDI (VFX)</li> 
+<a href="https://www.seemusicapp.com">SeeMusic:</a> Visualizador de Notas MIDI (VFX)
 <br>
 Você também pode utilizar outros visualizadores, como <a href="https://synthesiagame.com/download">Synthesia</a> e <a href="https://embers.app/">Embers</a> mas tenha em mente que esses softwares são pagos, embora você possa usar o Embers e o SeeMusic com marca d'água.
 
@@ -219,20 +230,42 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 </div>
 
 <h2>Arduino IDE</h2>
+<ul>
+</ul>
 <h2>loopMIDI</h2>
-O usuário utilizará o software loopMIDI para criar as portas MIDI, conforme ilustrado na Figura abaixo, o usuário ao clicar no botão "Add Port", de acordo com a seta 1, adicionará novas portas MIDI ao conjunto disponível no computador.
+<ul>
 
+<li>O loopMIDI é utilizado para criar as portas MIDI, conforme ilustrado na Figura abaixo, você deve clicar no botão "Add Port", de acordo com a seta 1, isso adicionará novas portas MIDI ao conjunto disponível no computador.</li><br>
+  
 <kbd> <img src="https://github.com/user-attachments/assets/3c498acb-eaf5-43f2-a5ef-241b51f5613c" width="600px"> </kbd>
 
-Feito isso, para renomear as portas, o usuário selecionará a porta desejada, indicado pela seta 1, ilustrado na figura abaixo, e definirá um novo nome no campo "New port-name", conforme indicado pela seta 2. A criação de duas portas é suficiente para garantir o funcionamento do sistema de LEDs e permitir o uso das mensagens MIDI por todos os programas que as utilizam.
+<li>Feito isso, para renomear as portas, selecione a porta desejada, indicado pela seta 1, ilustrado na figura abaixo, e defina um novo nome no campo "New port-name", conforme indicado pela seta 2. A criação de duas portas é suficiente para garantir o funcionamento do sistema de LEDs e permitir o uso das mensagens MIDI por todos os programas que as utilizam.</li><br>
 
 <kbd> <img src="https://github.com/user-attachments/assets/4b29a9c3-29d7-4681-9388-e661e02ab6fe" width="600px"> </kbd>
 
-Para apagar uma porta, basta selecioná-la e clicar no botão de menos, O botão com símbolo de quadrado muta a porta selecionada, fazendo com que ela não receba mais inputs MIDI
+<li>Para apagar uma porta, basta selecioná-la e clicar no botão de menos, O botão com símbolo de quadrado muta a porta selecionada, fazendo com que ela não receba mais inputs MIDI</li>
 
+</ul>
 <h2>Midi-OX</h2>
-<h2>HairlessMIDI</h2>
+<ul>
+Para realizar a configuração do MIDI-OX, primeiramente, clique no menu suspenso em “Options”, conforme indicado pela seta 1, de acordo com a ilustração da Figura abaixo, selecionando em seguida a opção “MIDI Devices”.
 
+<kbd> <img src="https://github.com/user-attachments/assets/2486d56e-ca28-4565-b262-b073e08d458b" width="600px"> </kbd>
+<li>Ao clicar na opção "MIDI Device", no menu suspenso “Options”, selecione a entrada do instrumento em "MIDI Inputs", conforme indicado pela seta 1, na figura abaixo. </li>
+<li>No campo "MIDI Outputs", indicado pelas setas 2, selecione as entradas criadas com o loopMIDI. </li>
+<li>Após a configuração, oclique no botão “OK”, conforme indicado pela seta 3. </li>
+<li>Este procedimento configura corretamente o direcionamento das mensagens MIDI do piano digital para as entradas criadas pelo loopMIDI, permitindo a comunicação adequada com o sistema do microcontrolador.</li>
+
+<kbd> <img src="https://github.com/user-attachments/assets/0cdedb9c-b693-45cb-a257-c1344cfaafd5" width="600px"> </kbd>
+
+Feito isso, pressione as teclas do seu instrumento, as notas devem aparecer no prompt conforme a figura abaixo.
+
+<kbd> <img src="https://github.com/user-attachments/assets/03d2442f-a1c7-4057-b692-8fe89d70a1fb" width="600px"> </kbd>
+
+</ul>
+<h2>HairlessMIDI</h2>
+<ul>
+</ul>
 <h1>Configurando os Softwares para edição de video.</h1>
 
 <h2>Reaper</h2>
