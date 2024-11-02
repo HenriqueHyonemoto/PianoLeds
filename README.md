@@ -279,6 +279,8 @@ Uma das suas entradas criadas pelo loopMIDI deve ser selecionada no campo "MIDI 
 <h1>Configurando os Softwares para edição de video.</h1>
 <ul>
 <h2>Reaper</h2>
+
+<h3>Gravando e Exportando um Arquivo MIDI</h3>
   
 De acordo com a ilustração da Figura Abaixo, clique duplo na região vazia, ou com o botão direito, e escolha a opção "Insert New Track" para criar uma faixa onde o MIDI será gravado, conforme orientado na seta 1.
 
@@ -296,13 +298,34 @@ Para iniciar a gravação das notas do instrumento, clique no botão de gravaç�
 
 <kbd> <img src="https://github.com/user-attachments/assets/983a73f2-a690-4e29-846f-afffb649c67d" width="600px"> </kbd>
 
-Após realizar a gravação, para salvar o arquivo, clique na opção "File" do menu suspenso, e em seguida em "Export Project MIDI", essa operação é mostrada pela seta 1 na Figura abaixo.
+Após finalizar a gravação (Aperte novamente o botão de gravação), para salvar o arquivo, clique na opção 'File' no menu suspenso e, em seguida, em 'Export Project MIDI'. Essa operação é indicada pela seta 1 na figura abaixo..
 
 <kbd> <img src="https://github.com/user-attachments/assets/7ebaafc5-1221-4bd9-aa36-2326035f50b1" width="600px"> </kbd>
 
 Conforme a Figura abaixo, uma janela de opções para exportação é aberta, você pode escolher quais faixas deseja renderizar, alterar o nome e o diretório do arquivo, além de outras opções disponíveis.
 
 <kbd> <img src="https://github.com/user-attachments/assets/6d2815cc-02cc-4413-adf7-4268c110f678" width="600px"> </kbd>
+
+<h3>Renderizando o Audio da Performance</h3>
+
+Nesta etapa, vamos utilizar a biblioteca/VST que você escolheu anteriormente. (Você pode pular esta etapa caso tenha gravado o áudio do seu instrumento com sua câmera ou microfone).
+
+Clique no botão "FX"
+
+<kbd> <img src="https://github.com/user-attachments/assets/c8bc6925-1640-4850-9a76-72df723cc7e0" width="600px"> </kbd>
+
+Pesquise pelo nome do seu VST, e clique sobre ele duas vezes.
+
+<kbd> <img src="https://github.com/user-attachments/assets/e5b6f33f-f964-4862-8a88-98b183cbb333" width="600px"> </kbd>
+
+Feito as configurações necessarias, va em File -> Render (CTRL + ALT + R)
+
+<kbd> <img src="https://github.com/user-attachments/assets/bf7f40d8-85ba-4a8a-af82-6acfd989b9fe" width="600px"> </kbd>
+
+Agora, selecione o Diretorio (Indicado pela Seta 1), De um nome pro seu arquivo (Seta 2), e escolha um formato (Seta 3), em seguida, clique em Render File.
+
+> [!NOTE]  
+> Você pode pesquisar como adicionar e configurar a sua Biblioteca/VST especifica no youtube ou na internet, provavelmente você vai encontrar um tutorial pra isso!
 
 <h2>See Music</h2>
 
@@ -340,7 +363,10 @@ Para renderizar o vídeo, clique no ícone conforme indicado na seta 1 da Figura
 
 <kbd> <img src="https://github.com/user-attachments/assets/2cf93ff0-b67b-4e72-bc4b-9c7747fab600" width="600px"> </kbd>
 
+Essas foram algumas dicas de como produzir seu vídeo. Em caso de dúvidas sobre esses programas específicos, use sua criatividade e pesquise bastante!
+
 </ul>
+
 
 
 
