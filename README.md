@@ -230,6 +230,33 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 </div>
 
 <h2>Arduino IDE</h2>
+
+Abra o arquivo "sketch_PianoLeds.ino" dentro da <a href="https://www.arduino.cc/en/software">Arduino IDE.</a><br>
+
+Vá em Tools -> Board -> Arduino AVR Boards -> (Selecione seu Arduino)
+
+<kbd> <a href=""><img src ="https://github.com/user-attachments/assets/e56f029e-04ab-4a2b-9bff-9bf29674181f" width="600px"> </a> </kbd> 
+
+Em seguida, nomamente em Tools -> Port -> (Selecione a COM na qual seu Arduino foi conectado)
+
+<kbd> <a href=""><img src ="https://github.com/user-attachments/assets/d94b0a55-065f-4ae6-acf3-6347d7e26439" width="600px"> </a> </kbd> 
+
+Agora, vamos baixar as bibliotecas para controlar a fita e receber comandos do piano.
+
+Clique no simbolo de livros, e pesquise o nome das duas bibliotecas, e as instale.
+
+<kbd> <a href=""><img src ="https://github.com/user-attachments/assets/2d10d170-0ea6-4e49-b5ee-0fae146e1120" width="600px"> </a> </kbd> 
+
+FastLED
+
+<kbd> <a href="https://github.com/FastLED/FastLED"><img src ="https://github.com/user-attachments/assets/ee872414-dd45-4972-af64-44a987092159" width="400px"> </a> </kbd> 
+
+MIDI Library
+
+<kbd> <a href="https://github.com/FortySevenEffects/arduino_midi_library"><img src ="https://github.com/user-attachments/assets/7b98d116-bd52-4f5c-87f0-02796186e582" width="400px"> </a> </kbd> 
+
+
+
 <ul>
 </ul>
 <h2>loopMIDI</h2>
