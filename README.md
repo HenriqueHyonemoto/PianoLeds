@@ -129,9 +129,41 @@ Você também pode utilizar outros visualizadores, como <a href="https://synthes
 
 <a href="https://www.blackmagicdesign.com/br/products/davinciresolve">Davinci Resolve: </a> Utilizado para criar o video final, juntando todos os arquivos produzidos anteriormente.
 
+A versão gratuita desse software permite fazer todas as edições necessárias para a produção de um vídeo, como o exemplo apresentado neste repositório. Porém, se você tiver experiência, pode utilizar qualquer outro editor de vídeo para realizar essa função.
+
 </ul>
 
-A versão gratuita desse software permite fazer todas as edições necessárias para a produção de um vídeo, como o exemplo apresentado neste repositório. Porém, se você tiver experiência, pode utilizar qualquer outro editor de vídeo para realizar essa função.
+<h1>Configurando o Hardware</h1>
+
+<ul>
+<div align="center">
+<kbd> <img src="https://github.com/user-attachments/assets/e02bffd7-d3c7-4d57-ae8a-f942f9e9a6fc" width="600px"> </kbd>
+</div>
+<br>
+<li>Piano: é Conectado por um cabo <STRONG>USB A-B</STRONG> no HubUSB</li>
+<li>Arduino: é conectado por um cabo <STRONG>USB 2.0 A/B</STRONG> NO HubUSB</li>
+<li>Fita Led: O cabo de dados é conectado na saida <STRONG>Digital (PWM)</STRONG> do Arduino</li>
+<li>Fita Led: O cabo de alimentação é conectado no HubUSB (No caso da minha fita, são dois pinos, um branco e um vermelho, eu os soldei em um conector USB para conecta-lo na fita.</li>
+<li>HubUSB: é conectado no PC</li>
+<br>
+> [!NOTE]  
+> Você pode substituir o HubUSB por conectar diretamente no PC, porém não recomendo pois isso ocupará muitas entradas.
+</ul>
+
+<h1>Configurando os Softwares</h1>
+
+<ul>
+<div align="center">
+<kbd> <img src="https://github.com/user-attachments/assets/bed53266-9ea8-43e8-80cf-7427a717f536" width="600px"> </kbd>
+</div>
+</ul>
+
+
+
+
+
+
+
 
 
 
