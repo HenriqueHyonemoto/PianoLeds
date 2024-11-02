@@ -241,6 +241,13 @@ Em seguida, nomamente em Tools -> Port -> (Selecione a COM na qual seu Arduino f
 
 <kbd> <a href=""><img src ="https://github.com/user-attachments/assets/d94b0a55-065f-4ae6-acf3-6347d7e26439" width="600px"> </a> </kbd> 
 
+Você pode verificar se está tudo certo, se o simbolo do USB estiver Verde, (conforme a figura abaixo).
+
+<kbd> <a href=""><img src ="https://github.com/user-attachments/assets/45f6dd6e-be03-4b07-aba3-0f9c42d817d3" width="600px"> </a> </kbd> 
+
+
+
+
 Agora, vamos baixar as bibliotecas para controlar a fita e receber comandos do piano.
 
 Clique no simbolo de livros, e pesquise o nome das duas bibliotecas, e as instale.
@@ -254,6 +261,13 @@ FastLED
 MIDI Library
 
 <kbd> <a href="https://github.com/FortySevenEffects/arduino_midi_library"><img src ="https://github.com/user-attachments/assets/7b98d116-bd52-4f5c-87f0-02796186e582" width="400px"> </a> </kbd> 
+
+> [!WARNING]
+> Feche todos os outros programas que utilizem o Arduino (Como o Hairless MIDI), pois se não o código não vai conseguir ser enviado para ele.
+
+Agora pressione o botão Verify/Compile (Seta 1, Para compilar e verificar se o código está funcionando) e em seguida o botão Upload (Seta 2, Para enviar o código para dentro do Arduino).
+
+<kbd> <a href=""><img src ="https://github.com/user-attachments/assets/030068bc-08c4-4330-b7b2-4a57ffeee5d1" width="400px"> </a> </kbd> 
 
 
 
