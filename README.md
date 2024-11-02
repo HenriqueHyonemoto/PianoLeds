@@ -318,14 +318,16 @@ Pesquise pelo nome do seu VST, e clique sobre ele duas vezes.
 
 <kbd> <img src="https://github.com/user-attachments/assets/e5b6f33f-f964-4862-8a88-98b183cbb333" width="600px"> </kbd>
 
+> [!NOTE]  
+> Você pode pesquisar como adicionar e configurar a sua Biblioteca/VST especifica no Youtube ou na sua ferramenta de pesquisa, provavelmente você vai encontrar um tutorial pra isso!
+
 Feito as configurações necessarias, va em File -> Render (CTRL + ALT + R)
 
-<kbd> <img src="https://github.com/user-attachments/assets/bf7f40d8-85ba-4a8a-af82-6acfd989b9fe" width="600px"> </kbd>
+<kbd> <img src="https://github.com/user-attachments/assets/1153635e-43e7-4105-99a0-41bbb4c75b48" width="600px"> </kbd>
 
 Agora, selecione o Diretorio (Indicado pela Seta 1), De um nome pro seu arquivo (Seta 2), e escolha um formato (Seta 3), em seguida, clique em Render File.
 
-> [!NOTE]  
-> Você pode pesquisar como adicionar e configurar a sua Biblioteca/VST especifica no youtube ou na internet, provavelmente você vai encontrar um tutorial pra isso!
+<kbd> <img src="https://github.com/user-attachments/assets/03392b6c-c098-4c1f-97f4-9fccd245c986" width="600px"> </kbd>
 
 <h2>See Music</h2>
 
