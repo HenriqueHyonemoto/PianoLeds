@@ -235,19 +235,20 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 <h2>loopMIDI</h2>
 <ul>
 
-<li>O loopMIDI é utilizado para criar as portas MIDI, conforme ilustrado na Figura abaixo, você deve clicar no botão "Add Port", de acordo com a seta 1, isso adicionará novas portas MIDI ao conjunto disponível no computador.</li><br>
+O loopMIDI é utilizado para criar as portas MIDI, conforme ilustrado na Figura abaixo, você deve clicar no botão "Add Port", de acordo com a seta 1, isso adicionará novas portas MIDI ao conjunto disponível no computador.<br>
   
 <kbd> <img src="https://github.com/user-attachments/assets/3c498acb-eaf5-43f2-a5ef-241b51f5613c" width="600px"> </kbd>
 
-<li>Feito isso, para renomear as portas, selecione a porta desejada, indicado pela seta 1, ilustrado na figura abaixo, e defina um novo nome no campo "New port-name", conforme indicado pela seta 2. A criação de duas portas é suficiente para garantir o funcionamento do sistema de LEDs e permitir o uso das mensagens MIDI por todos os programas que as utilizam.</li><br>
+Feito isso, para renomear as portas, selecione a porta desejada, indicado pela seta 1, ilustrado na figura abaixo, e defina um novo nome no campo "New port-name", conforme indicado pela seta 2. A criação de duas portas é suficiente para garantir o funcionamento do sistema de LEDs e permitir o uso das mensagens MIDI por todos os programas que as utilizam.<br>
 
 <kbd> <img src="https://github.com/user-attachments/assets/4b29a9c3-29d7-4681-9388-e661e02ab6fe" width="600px"> </kbd>
 
-<li>Para apagar uma porta, basta selecioná-la e clicar no botão de menos, O botão com símbolo de quadrado muta a porta selecionada, fazendo com que ela não receba mais inputs MIDI</li>
+Para apagar uma porta, basta selecioná-la e clicar no botão de menos, O botão com símbolo de quadrado muta a porta selecionada, fazendo com que ela não receba mais inputs MIDI
 
 </ul>
 <h2>Midi-OX</h2>
 <ul>
+  
 Para realizar a configuração do MIDI-OX, primeiramente, clique no menu suspenso em “Options”, conforme indicado pela seta 1, de acordo com a ilustração da Figura abaixo, selecionando em seguida a opção “MIDI Devices”.
 
 <kbd> <img src="https://github.com/user-attachments/assets/2486d56e-ca28-4565-b262-b073e08d458b" width="600px"> </kbd>
@@ -265,10 +266,43 @@ Feito isso, pressione as teclas do seu instrumento, as notas devem aparecer no p
 </ul>
 <h2>HairlessMIDI</h2>
 <ul>
+  
+No software Hairless MIDI, selecione a porta COM do Arduino no campo "Serial Port", de acordo com a indicação da seta 1 na Figura abaixo. Isso configura a comunicação entre o Hairless MIDI e o Arduino através da porta serial selecionada.
+
+<kbd> <img src="https://github.com/user-attachments/assets/616cc65d-1c80-4385-a221-94370376dd2e" width="600px"> </kbd>
+
+Uma das suas entradas criadas pelo loopMIDI deve ser selecionada no campo "MIDI In", como evidenciado pela seta 1 da Figura abaixo. Isso garantirá que as mensagens MIDI sejam direcionadas corretamente para o sistema do Microcontrolador.
+
+<kbd> <img src="https://github.com/user-attachments/assets/5666aa94-1dde-4286-a89b-77c2837892b2" width="600px"> </kbd>
+
 </ul>
 <h1>Configurando os Softwares para edição de video.</h1>
 
 <h2>Reaper</h2>
+De acordo com a ilustração da Figura Abaixo, clique duplo na região vazia, ou com o botão direito, e escolha a opção "Insert New Track" para criar uma faixa onde o MIDI será gravado, conforme orientado na seta 1.
+
+<kbd> <img src="https://github.com/user-attachments/assets/6ab0fa56-c768-432f-882c-b188672cf037" width="600px"> </kbd>
+
+Em seguida, conforme demonstrado na Figura abaixo, clique no botão "Record Arm/Disarm", acessar as opções de configuração de entrada do instrumento, conforme indicado na seta 1.
+
+<kbd> <img src="https://github.com/user-attachments/assets/35d1b5ed-d591-4f16-9b3e-fe09ea09162d" width="600px"> </kbd>
+
+A tela do sistema, ilustrada na Figura abaixo, orienta sobre a configuração do instrumento. Ao clicar no botão "IN FX", conforme indicado pela seta 1, selecione o tipo de entrada de mídia de áudio, escolhendo a opção "Input Midi" e marcando uma das portas criadas pelo loopMIDI e MIDI-OX que estejam disponíveis, seguindo a indicação da seta 2. Em seguida, é possível escolher qualquer canal (Channel) para realizar a gravação.
+
+<kbd> <img src="https://github.com/user-attachments/assets/e56717f3-daf3-4cd9-9155-a255c221f510" width="600px"> </kbd>
+
+Para iniciar a gravação das notas do instrumento, clique no botão de gravação localizado ao lado dos controles de reprodução de áudio ou usar o atalho CTRL+L, conforme indicado na seta 1 na Figura abaixo.
+
+<kbd> <img src="https://github.com/user-attachments/assets/983a73f2-a690-4e29-846f-afffb649c67d" width="600px"> </kbd>
+
+Após realizar a gravação, para salvar o arquivo, clique na opção "File" do menu suspenso, e em seguida em "Export Project MIDI", essa operação é mostrada pela seta 1 na Figura abaixo.
+
+<kbd> <img src="https://github.com/user-attachments/assets/7ebaafc5-1221-4bd9-aa36-2326035f50b1" width="600px"> </kbd>
+
+Conforme a Figura abaixo, uma janela de opções para exportação é aberta, você pode escolher quais faixas deseja renderizar, alterar o nome e o diretório do arquivo, além de outras opções disponíveis.
+
+<kbd> <img src="https://github.com/user-attachments/assets/6d2815cc-02cc-4413-adf7-4268c110f678" width="600px"> </kbd>
+
 <h2>See Music</h2>
 <h2>DaVinciResolve</h2>
 
