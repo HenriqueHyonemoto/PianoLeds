@@ -97,9 +97,10 @@ Pode ser utilizado qualquer HUB USB, ele servirá para facilitar a conexão entr
 <ul>
   <kbd> <a href="#"><img src ="https://github.com/user-attachments/assets/5701b300-ebec-4603-a015-e0e26693a472" width="200px"> </a> </kbd>
   
-  <a id="reaper" href="https://www.reaper.fm/">Reaper:</a> Gravador MIDI e Editor de Audio <br>
+  <a id="reaper" href="https://www.reaper.fm/">Reaper:</a> Gravador MIDI e Editor de Audio. <br>
   
-Você precisará para gravar sua performance em formato MIDI (nota por nota tocada) para gerar a visualização em vídeo, e também precisará renderizar o audio. (Caso não grave o som fisicamente)<br>
+Você precisará para gravar sua performance em formato MIDI (nota por nota tocada) para gerar a visualização em vídeo, e também precisará renderizar o audio (Caso não grave o som fisicamente).
+<br><br>
 Você pode utilizar outros programas para realizar essa função.
 </ul>
 
@@ -146,11 +147,11 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 
 <ul>
   
-<li><strong>O Piano:</STRONG> É Conectado por um cabo <STRONG>USB A-B</STRONG> no HubUSB</li>
+<li><strong>O Piano:</STRONG> É Conectado por um cabo <STRONG>USB A-B</STRONG> no HubUSB.</li>
 
 <kbd> <img src="https://github.com/user-attachments/assets/a847d7d4-9165-4da8-a5f8-19374bc844a2" width="400px"> </kbd>
 
-*Entrada USB-B do Piano Digital
+*Entrada USB-B do Piano Digital.
 
 </ul>
 
@@ -158,7 +159,7 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 
 <ul>
 
-<li><strong>Arduino:</STRONG> É conectado por um cabo <STRONG>USB 2.0 A/B</STRONG> no HubUSB</li>
+<li><strong>Arduino:</STRONG> É conectado por um cabo <STRONG>USB 2.0 A/B</STRONG> no HubUSB.</li>
 
 <kbd> <img src="https://github.com/user-attachments/assets/a0c9eef7-392f-4216-bfeb-7e950e8d3b49" width="300px"> </kbd>
 
@@ -173,20 +174,20 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 <kbd><img src="https://github.com/user-attachments/assets/c04cc648-48d3-472c-898b-933dc06eb27b" width="400px"></kbd>
 
 
-<li><STRONG>A Fita Led</STRONG> Possui dois grupos de cabo separados</li>
-<h3><strong>Grupo 1:</strong> Um Cabo <strong>Branco(-)</strong> e Um Cabo <strong>Vermelho(+)</strong> (Cabos de Alimentação)</h3>
+<li><STRONG>A Fita Led</STRONG> Possui dois grupos de cabo separados.</li>
+<h3><strong>Grupo 1:</strong> Um Cabo <strong>Branco(-)</strong> e Um Cabo <strong>Vermelho(+)</strong> (Cabos de Alimentação).</h3>
 <ul>
-  <li>Foi soldado em um Conector USB, e conectado no HubUSB (A Fita led precisa dessa fonte de alimentação, pois somente a do arduino não é o suficiente)</li>
+  <li>Foi soldado em um Conector USB, e conectado no HubUSB (A Fita led precisa dessa fonte de alimentação, pois somente a do arduino não é o suficiente).</li>
 
   <kbd> <img src="https://github.com/user-attachments/assets/3668830c-486d-424f-a873-d288978ecc05" width="400px"> </kbd>
   
 </ul>
-<h3><strong>Grupo 2:</strong> Um Cabo <strong>Branco(-)</strong>, Um cabo <strong>Vermelho(+)</strong> e um cabo <strong>Verde</strong> (Cabo de Dados)</h3>
+<h3><strong>Grupo 2:</strong> Um Cabo <strong>Branco(-)</strong>, Um cabo <strong>Vermelho(+)</strong> e um cabo <strong>Verde</strong> (Cabo de Dados).</h3>
 <ul>
-  <li>Conectar adaptador que separa o grupo de fios, em fios individuais no conector Fêmea da Fita Led</li>
+  <li>Conectar adaptador que separa o grupo de fios, em fios individuais no conector Fêmea da Fita Led.</li>
   <kbd> <img src="https://github.com/user-attachments/assets/9a707d9c-be64-40b4-bcb5-4480620146c1" width="400px"> </kbd>
-  <li>É recomendado encapar os conectores dos cabos <strong>branco e vermelho</strong> com fita isolante, para evitar curto, já que não serão utilizados</li>
-  <li>O conector <strong>Verde</strong> (Cabo de Dados) é conectado em uma das saidas <STRONG>Digital (PWM)</STRONG> do Arduino (Recomendo a 7, pois é a que foi utilizada no código)</li>
+  <li>É recomendado encapar os conectores dos cabos <strong>branco e vermelho</strong> com fita isolante, para evitar curto, já que não serão utilizados.</li>
+  <li>O conector <strong>Verde</strong> (Cabo de Dados) é conectado em uma das saidas <STRONG>Digital (PWM)</STRONG> do Arduino (Recomendo a 7, pois é a que foi utilizada no código).</li>
 
   <kbd> <img src="https://github.com/user-attachments/assets/383dc900-95ca-4546-8124-276ae191e5e7" width="400px"> </kbd>
 
@@ -201,7 +202,7 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 
 <ul>
   
-<li>É conectado no <strong>PC</strong></li>
+<li>É conectado no <strong>PC</strong>.</li>
 <br>
   
 > [!NOTE]  
