@@ -451,9 +451,34 @@ Nessa configuração, você pode escolher uma cor, e toda tecla acenderá a mesm
   <li>Para escolher a Segunda Cor , altere os valores: r,g,b da função cor2();</li>
   <kbd> <img src="https://github.com/user-attachments/assets/c0b958e5-f94e-48be-9fba-714fac698d97" width="400px"> </kbd>
 </ul>
-  
+
+<h2>sketch4: Cores Aleatorias</h2>
+<ul>
+  Cada tecla pressionada acendera uma cor aleatoria;
+  <br>
+  <li>Você pode definir valores minimos e maximos de RGB, pois como são aleatorios, se todos os 3 valores cairem muito baixos, podem resultar em uma cor "apagada"</li>
+  <kbd> <img src="https://github.com/user-attachments/assets/fdfce029-edfd-49b0-b62b-700b20aefa90" width="400px"> </kbd>
+</ul>
 
 </ul>
+
+<h1>Como colocar o sistema pra funcionar de novo?</h1>
+<ul>
+Agora que você ja montou todos e conectou todos os Hardwares, mandou o código pro arduino, configurou o loopMIDI, MIDIOX e HairlessMidi.
+Execute os programas nessa ordem, e os deixe em execução:
+  <ul>
+    <br>
+    <li><strong>loopMIDI</strong> (Apenas deixar aberto).</li>
+    <br>
+    <li><strong>MIDI-OX</strong> (Geralmente é só deixar aberto (teste apertar as teclas do seu instrumento, se aparecer mensagens de output, esta tudo certo), porém, em algumas ocasiões, pode ser necessario realizar a configuração dele novamente).</li>
+    <br>
+    <li><strong>Hairless MIDI</strong> (As vezes pode ser necessario selecioanar a porta em "Midi In" e o Arduino em "Serial Port").</li>
+  </ul>
+
+</ul>
+
+
+
 
 
 
