@@ -31,7 +31,7 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
   - [Softwares Para Piano e LED](#softwares-para-piano-e-led)
     - [Arduino IDE](#arduino-ide)
     - [loopMIDI](#loopmidi)
-    - [Midi OX](#midi-ox)
+    - [Midi-OX](#midi-ox-app)
     - [Hairless MIDI](#hairless-midi)
   - [Softwares para Produção de Vídeo](#softwares-para-produção-de-vídeo)
     - [Gravador MIDI e Editor de Áudio](#gravador-midi-e-editor-de-áudio)
@@ -140,7 +140,7 @@ Para programar o Arduino com o código do projeto.
 
 Utilizado para criar múltiplas portas MIDI adicionais no computador.
 
-<h3><a href="http://www.midiox.com">Midi OX</a> </h3>
+<h3 name="midi-ox-app"><a href="http://www.midiox.com">Midi-OX</a> </h3>
 
 <kbd> <a href="#"><img src="https://github.com/user-attachments/assets/12de1c16-30ec-4e03-8994-f3098215ae6e" width="200px" alt="Midi-OX"> </a> </kbd>
 
