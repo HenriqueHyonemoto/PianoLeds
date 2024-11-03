@@ -489,6 +489,11 @@ Após realizar essas configurações iniciais, não será necessário repeti-las
 
 <h1>Obrigado!</h1>
 <p>Sinta-se à vontade para criar forks com melhorias nos códigos ou criar novos modos de cores!</p>
+<br>
+<div align="center">
+<img src="https://github.com/user-attachments/assets/fc3682d2-b593-4157-a1cd-f69ccf1a0b1a" width="400px">
+</div>
+
 
 
 
