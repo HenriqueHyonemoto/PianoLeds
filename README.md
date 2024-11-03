@@ -21,6 +21,7 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
 
 <!-- TOC -->
 <h1>Índice</h1>
+
 - [Hardwares Utilizados](#hardwares-utilizados)
   - [Arduino: Leonardo](#arduino-leonardo)
   - [Fita LED Endereçável: WS2812B](#fita-led-endereçável-ws2812b)
