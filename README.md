@@ -42,8 +42,8 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
   - [Piano](#piano)
   - [Arduino](#arduino)
   - [Fita LED](#fita-led)
-    - [Grupo 1](#grupo-1)
-    - [Grupo 2](#grupo-2)
+    - [Grupo de Conexão de Energia (Vermelho e Branco)](#grupo-1)
+    - [Grupo de Conexão de Dados e Energia (Vermelho, Branco e Verde)](#grupo-2)
   - [Hub USB](#hub-usb)
 - [Configurando os Softwares para Controle de LEDs](#configurando-os-softwares-para-controle-de-leds)
   - [Arduino IDE](#arduino-ide-cfg)
@@ -65,7 +65,6 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
     - [sketch3: Duas Cores Específicas Aleatórias](#sketch3-duas-cores-específicas-aleatórias)
     - [sketch4: Cores Aleatórias](#sketch4-cores-aleatórias)
 - [Como Colocar o Sistema para Funcionar Novamente?](#como-colocar-o-sistema-para-funcionar-novamente)
-
 
 <!-- /TOC -->
 
