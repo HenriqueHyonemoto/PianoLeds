@@ -477,6 +477,10 @@ Execute os programas nessa ordem, e os deixe em execução:
 
 </ul>
 
+<h1>Obrigado!</h1>
+
+Sinta-se a vontade para criar Forks com melhorias nos códigos, ou crias novos modos de cores!
+
 
 
 
