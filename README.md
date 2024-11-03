@@ -247,7 +247,7 @@ Em seguida, vá novamente em Tools -> Port -> (Selecione a porta COM na qual seu
 
 <kbd> <a href="#"><img src="https://github.com/user-attachments/assets/d94b0a55-065f-4ae6-acf3-6347d7e26439" width="600px" alt="Selecionando a porta COM do Arduino"> </a> </kbd>
 
-Verifique se o Arduino está corretamente conectado — o símbolo do USB deve estar verde, como na figura abaixo.
+Verifique se o Arduino está corretamente conectado, (Selecione neste menu, caso necessário) — o símbolo do USB deve estar verde, como na figura abaixo.
 
 <kbd> <a href="#"><img src="https://github.com/user-attachments/assets/45f6dd6e-be03-4b07-aba3-0f9c42d817d3" width="600px" alt="Conexão bem-sucedida do Arduino"> </a> </kbd>
 
