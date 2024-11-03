@@ -31,7 +31,7 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
   - [Softwares Para Piano e LED](#softwares-para-piano-e-led)
     - [Arduino IDE](#arduino-ide)
     - [loopMIDI](#loopmidi)
-    - [Midi-OX](#midi-ox)
+    - [Midi-OX](#midi-ox-1)
     - [Hairless MIDI](#hairless-midi)
   - [Softwares para Produção de Vídeo](#softwares-para-produção-de-vídeo)
     - [Gravador MIDI e Editor de Áudio](#gravador-midi-e-editor-de-áudio)
