@@ -229,7 +229,7 @@ A versão gratuita desse software permite fazer todas as edições necessárias 
 
 <h2>Arduino IDE</h2>
 
-Abra o arquivo "sketch_PianoLeds.ino" dentro da <a href="https://www.arduino.cc/en/software">Arduino IDE.</a><br>
+Escolha alguma <a href="">"sketch"</a> desse repositorio dentro da <a href="https://www.arduino.cc/en/software">Arduino IDE.</a><br>
 
 Vá em Tools -> Board -> Arduino AVR Boards -> (Selecione seu Arduino)
 
@@ -312,6 +312,8 @@ No software Hairless MIDI, selecione a porta COM do Arduino no campo "Serial Por
 Uma das suas entradas criadas pelo loopMIDI deve ser selecionada no campo "MIDI In", como evidenciado pela seta 1 da Figura abaixo. Isso garantirá que as mensagens MIDI sejam direcionadas corretamente para o sistema do Microcontrolador.
 
 <kbd> <img src="https://github.com/user-attachments/assets/5666aa94-1dde-4286-a89b-77c2837892b2" width="600px"> </kbd>
+
+Após realizar todas essas configurações iniciais, você não vai precisar fazer isso tudo de novo quando for utilizar o software novamente, aprenas abrir os programas em sequencia. (Veja instruções no Final da Página)
 
 </ul>
 <h1>Configurando os Softwares para edição de video.</h1>
@@ -404,6 +406,52 @@ Para renderizar o vídeo, clique no ícone conforme indicado na seta 1 da Figura
 <kbd> <img src="https://github.com/user-attachments/assets/2cf93ff0-b67b-4e72-bc4b-9c7747fab600" width="600px"> </kbd>
 
 Essas foram algumas dicas de como produzir seu vídeo. Em caso de dúvidas sobre esses programas específicos, use sua criatividade e pesquise bastante!
+
+</ul>
+
+<h1>Escolhendo o Modo, Cores e Intensidade dos leds</h1>
+<ul>
+Cada pasta "sketch" desse repositório, tem um modo especifico de cor.
+</ul>
+<h3>Mudar a cor</h2>
+<ul>
+Para mudar a cor, pequise pelo RGB dela na sua ferramenta de pesquisa, após isso é só mudar os valores de r,g,b nas funções "cor()" ou relativas com essas variaveis.
+<br><br>
+ <a href="https://g.co/kgs/r2wHJD8">Seletor de Cores do Google</a>
+
+  <kbd> <img src="https://github.com/user-attachments/assets/ff7929b9-782b-451a-b7a1-7404aee37693" width="600px"> </kbd>
+
+</ul>
+<h3>Mudar a Intensidade</h2>
+
+Você também pode alterar o brilho com valores entre 0 a 255. ( Não é recomendado aumentar muito essa valor, pois pode prejudicar sua visão durante a performance) <br>
+
+<h2> Modos</h2>
+<ul>
+<h2>sketch1: Cor Unica</h2>
+<ul>
+Nessa configuração, você pode escolher uma cor, e toda tecla acenderá a mesma cor de led.<br>
+  <br>
+<li>Para alterar a cor, altere os valores: r,g,b da função cor();</li>
+<kbd> <img src="https://github.com/user-attachments/assets/93dcd754-87bd-4d65-a607-98d3f5812459" width="400px"> </kbd>
+  
+</ul>
+<h2>sketch2: Uma cor para Teclas Brancas e outra para as Teclas Pretas</h2>
+<ul>
+  <li>Para alterar a cor das teclas <strong>Pretas</strong>, altere os valores: r,g,b da função cor1();</li>
+  <li>Para alterar a cor das teclas <strong>Brancas</strong>, altere os valores: r,g,b da função cor2();</li>
+  <kbd> <img src="https://github.com/user-attachments/assets/f3b0ee1b-3dda-4f30-b00a-c6ea408b86d9" width="400px"> </kbd>
+</ul>
+
+<h2>sketch3: Duas Cores Especificas Aleatorias</h2>
+<ul>
+  Neste modelo, você vai escolher duas cores, e quando você apertar uma tecla, terá 50% de chance de sair a cor1(); e 50% de chance de sair a cor2();
+  <br><br>
+  <li>Para escolher a Primeira Cor,  altere os valores: r,g,b da função cor1();</li>
+  <li>Para escolher a Segunda Cor , altere os valores: r,g,b da função cor2();</li>
+  <kbd> <img src="https://github.com/user-attachments/assets/c0b958e5-f94e-48be-9fba-714fac698d97" width="400px"> </kbd>
+</ul>
+  
 
 </ul>
 
