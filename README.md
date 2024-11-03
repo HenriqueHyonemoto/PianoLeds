@@ -20,6 +20,49 @@ Este repositório oferece um guia passo a passo para você aprender a:
 Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias criações!
 
 <!-- TOC -->
+- [Hardwares Utilizados](#hardwares-utilizados)
+  - [Arduino: Leonardo](#arduino-leonardo)
+  - [Fita LED Endereçável: WS2812B](#fita-led-endereçável-ws2812b)
+  - [Piano Digital: Yamaha P-45](#piano-digital-yamaha-p-45)
+  - [Hub USB (Opcional)](#hub-usb-opcional)
+- [Softwares Utilizados](#softwares-utilizados)
+  - [Softwares Para Piano e LED](#softwares-para-piano-e-led)
+    - [Arduino IDE](#arduino-ide)
+    - [loopMIDI](#loopmidi)
+    - [Midi-OX ](#midi-ox)
+    - [Hairless MIDI](#hairless-midi)
+  - [Softwares para Produção de Vídeo](#softwares-para-produção-de-vídeo)
+    - [Gravador MIDI e Editor de Áudio](#gravador-midi-e-editor-de-áudio)
+    - [VST](#vst)
+    - [Visualizador MIDI](#visualizador-midi)
+    - [Editor de Vídeo](#editor-de-vídeo)
+- [Configurando o Hardware](#configurando-o-hardware)
+  - [Piano](#piano)
+  - [Arduino](#arduino)
+  - [Fita LED](#fita-led)
+    - [Grupo 1](#grupo-1)
+    - [Grupo 2](#grupo-2)
+  - [Hub USB](#hub-usb)
+- [Configurando os Softwares para Controle de LEDs](#configurando-os-softwares-para-controle-de-leds)
+  - [Arduino IDE](#arduino-ide-1)
+  - [loopMIDI](#loopmidi-1)
+  - [Midi-OX](#midi-ox)
+  - [HairlessMIDI](#hairlessmidi)
+- [Configurando os Softwares para Edição de Vídeo](#configurando-os-softwares-para-edição-de-vídeo)
+  - [Reaper](#reaper)
+    - [Gravando e Exportando um Arquivo MIDI](#gravando-e-exportando-um-arquivo-midi)
+    - [Renderizando o Áudio da Performance](#renderizando-o-áudio-da-performance)
+  - [See Music](#see-music)
+  - [DaVinci Resolve](#davinci-resolve)
+- [Escolhendo o Modo, Cores e Intensidade dos LEDs](#escolhendo-o-modo-cores-e-intensidade-dos-leds)
+    - [Mudar a Cor](#mudar-a-cor)
+    - [Mudar a Intensidade](#mudar-a-intensidade)
+  - [Modos](#modos)
+    - [sketch1: Cor Única](#sketch1-cor-única)
+    - [sketch2: Uma Cor para Teclas Brancas e Outra para Teclas Pretas](#sketch2-uma-cor-para-teclas-brancas-e-outra-para-teclas-pretas)
+    - [sketch3: Duas Cores Específicas Aleatórias](#sketch3-duas-cores-específicas-aleatórias)
+    - [sketch4: Cores Aleatórias](#sketch4-cores-aleatórias)
+- [Como Colocar o Sistema para Funcionar Novamente?](#como-colocar-o-sistema-para-funcionar-novamente)
 
 
 <!-- /TOC -->
@@ -111,7 +154,7 @@ Transmite as mensagens MIDI do piano para a porta serial COM do Arduino.
 
 <ul>
   
-<h3>Gravador MIDI / Editor de Áudio</h3>
+<h3>Gravador MIDI e Editor de Áudio</h3>
 
 <kbd> <a href="#"><img src="https://github.com/user-attachments/assets/5701b300-ebec-4603-a015-e0e26693a472" width="200px" alt="Reaper"> </a> </kbd>
 
@@ -122,7 +165,7 @@ Outros programas podem ser utilizados para essas funções.
 
 </ul>
 
-<h3>Biblioteca / Piano VST</h3>
+<h3>VST</h3>
 
 <ul>
 <kbd> <a href="#"><img src="https://github.com/user-attachments/assets/95e7d65a-0c0d-43bd-9375-22628bd457fd" width="600px" alt="Piano VST"> </a> </kbd>
@@ -194,8 +237,9 @@ A versão gratuita permite fazer todas as edições necessárias para a produç�
 
 <li><strong>Fita LED:</strong> possui dois grupos de cabos separados.</li>
 
-<h3><strong>Grupo 1:</strong> Cabo <strong>Branco (-)</strong> e Cabo <strong>Vermelho (+)</strong> (cabos de alimentação).</h3>
+<h3><strong>Grupo 1</strong></h3>
 <ul>
+<h4>Cabo <strong>Branco (-)</strong> e Cabo <strong>Vermelho (+)</strong> (cabos de alimentação).</h2>
 
   <kbd> <img src="https://github.com/user-attachments/assets/3668830c-486d-424f-a873-d288978ecc05" width="400px" alt="Cabos de Alimentação da Fita LED"> </kbd>
 
@@ -203,8 +247,10 @@ A versão gratuita permite fazer todas as edições necessárias para a produç�
   
 </ul>
 
-<h3><strong>Grupo 2:</strong> Cabo <strong>Branco (-)</strong>, Cabo <strong>Vermelho (+)</strong> e Cabo <strong>Verde</strong> (cabo de dados).</h3>
+<h3><strong>Grupo 2</strong></h3>
+
 <ul>
+  <h4>Cabo <strong>Branco (-)</strong>, Cabo <strong>Vermelho (+)</strong> e Cabo <strong>Verde</strong> (cabo de dados).</h2>
   
   <kbd> <img src="https://github.com/user-attachments/assets/9a707d9c-be64-40b4-bcb5-4480620146c1" width="400px" alt="Cabos de Dados da Fita LED"> </kbd>
   
