@@ -133,7 +133,7 @@ Para importar no <a href="#reaper">Reaper</a>, o VST precisa ser instalado como 
 <ul>
 <kbd> <img src="https://github.com/user-attachments/assets/69144623-7cbd-47d6-9c5a-bb1d4a670feb" width="600px" alt="Visualizador MIDI"> </kbd>
   
-<a href="https://www.seemusicapp.com">SeeMusic:</a> Visualizador de notas MIDI (VFX).<br>
+<a href="https://www.seemusicapp.com">SeeMusic:</a> Visualizador de notas MIDI (VFX).<br><br>
 Você também pode usar outros visualizadores, como <a href="https://synthesiagame.com/download">Synthesia</a> e <a href="https://embers.app/">Embers</a>. Esses softwares são pagos, embora o Embers e o SeeMusic ofereçam versões com marca d'água.
 
 </ul>
