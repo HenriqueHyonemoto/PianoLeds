@@ -143,7 +143,7 @@ Você também pode usar outros visualizadores, como <a href="https://synthesiaga
 <ul>
 <kbd><img src="https://github.com/user-attachments/assets/124a451e-4805-4fa5-83c7-1c541ae90f35" width="600px" alt="Davinci Resolve"> </kbd>
 
-<a href="https://www.blackmagicdesign.com/br/products/davinciresolve">DaVinci Resolve:</a> Usado para criar o vídeo final, reunindo todos os arquivos produzidos anteriormente.
+<a href="https://www.blackmagicdesign.com/br/products/davinciresolve">DaVinci Resolve:</a> Usado para criar o vídeo final, reunindo todos os arquivos produzidos pelos programas anteriores.
 
 A versão gratuita permite fazer todas as edições necessárias para a produção de um vídeo, como o exemplo apresentado neste repositório. Caso prefira, qualquer outro editor de vídeo também pode ser utilizado para essa função.
 
