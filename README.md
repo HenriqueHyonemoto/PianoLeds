@@ -31,7 +31,7 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
   - [Softwares Para Piano e LED](#softwares-para-piano-e-led)
     - [Arduino IDE](#arduino-ide)
     - [loopMIDI](#loopmidi)
-    - [Midi-OX](#midi-ox-1)
+    - [Midi OX](#midi-ox)
     - [Hairless MIDI](#hairless-midi)
   - [Softwares para Produção de Vídeo](#softwares-para-produção-de-vídeo)
     - [Gravador MIDI e Editor de Áudio](#gravador-midi-e-editor-de-áudio)
@@ -46,16 +46,16 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
     - [Grupo 2](#grupo-2)
   - [Hub USB](#hub-usb)
 - [Configurando os Softwares para Controle de LEDs](#configurando-os-softwares-para-controle-de-leds)
-  - [Configurando o Arduino IDE](#configurando-o-arduino-ide)
-  - [Configurando o loopMIDI](#loopmidi-1)
-  - [Configurando o Midi-OX](#midi-ox-1)
-  - [Configurando o HairlessMIDI](#hairlessmidi-1)
+  - [Arduino IDE](#arduino-ide-1)
+  - [loopMIDI](#loopmidi-1)
+  - [Midi-OX](#midi-ox-1)
+  - [HairlessMIDI](#hairlessmidi-1)
 - [Configurando os Softwares para Edição de Vídeo](#configurando-os-softwares-para-edição-de-vídeo)
   - [Configurando o Reaper](#reaper)
     - [Gravando e Exportando um Arquivo MIDI](#gravando-e-exportando-um-arquivo-midi)
     - [Renderizando o Áudio da Performance](#renderizando-o-áudio-da-performance)
-  - [Configurando o See Music](#see-music)
-  - [Configurando o DaVinci Resolve](#davinci-resolve)
+  - [See Music](#see-music)
+  - [DaVinci Resolve](#davinci-resolve)
 - [Escolhendo o Modo, Cores e Intensidade dos LEDs](#escolhendo-o-modo-cores-e-intensidade-dos-leds)
     - [Mudar a Cor](#mudar-a-cor)
     - [Mudar a Intensidade](#mudar-a-intensidade)
@@ -140,7 +140,7 @@ Para programar o Arduino com o código do projeto.
 
 Utilizado para criar múltiplas portas MIDI adicionais no computador.
 
-<h3><a href="http://www.midiox.com">Midi-OX</a> </h3>
+<h3><a href="http://www.midiox.com">Midi OX</a> </h3>
 
 <kbd> <a href="#"><img src="https://github.com/user-attachments/assets/12de1c16-30ec-4e03-8994-f3098215ae6e" width="200px" alt="Midi-OX"> </a> </kbd>
 
@@ -287,7 +287,7 @@ A versão gratuita permite fazer todas as edições necessárias para a produç�
 <kbd> <img src="https://github.com/user-attachments/assets/bed53266-9ea8-43e8-80cf-7427a717f536" width="600px" alt="Diagrama de Software"> </kbd>
 </div>
 
-<h2>Configurando o Arduino IDE</h2>
+<h2>Arduino IDE</h2>
 
 Escolha algum <a href="#">"sketch"</a> deste repositório e abra-o na <a href="https://www.arduino.cc/en/software">Arduino IDE</a>.<br>
 
@@ -330,7 +330,7 @@ Se essa mensagem que <ins>parece</ins> um erro for mostrada, isso indica que o c
 
 </ul>
 
-<h2>Configurando o loopMIDI</h2>
+<h2>loopMIDI</h2>
 <ul>
 
 O loopMIDI é utilizado para criar portas MIDI virtuais. Clique no botão "Add Port" (seta 1), como mostrado abaixo, para adicionar novas portas MIDI.
@@ -345,7 +345,7 @@ Para excluir uma porta, selecione-a e clique no botão de menos. O botão quadra
 
 </ul>
 
-<h2>Configurando o Midi-OX</h2>
+<h2>Midi-OX</h2>
 <ul>
   
 Para configurar o MIDI-OX, abra o menu “Options” e selecione “MIDI Devices” (seta 1).
@@ -364,7 +364,7 @@ Toque as teclas do seu instrumento; as notas devem aparecer no prompt, conforme 
 
 </ul>
 
-<h2>Configurando o HairlessMIDI</h2>
+<h2>HairlessMIDI</h2>
 <ul>
   
 No Hairless MIDI, selecione a porta COM do Arduino em "Serial Port" (seta 1), conforme ilustrado na figura abaixo.
@@ -381,7 +381,7 @@ Após realizar essas configurações iniciais, não será necessário repeti-las
 
 <h1>Configurando os Softwares para Edição de Vídeo</h1>
 <ul>
-  <h2>Configurando o Reaper</h2>
+  <h2>Reaper</h2>
   
   <h3>Gravando e Exportando um Arquivo MIDI</h3>
   
@@ -432,7 +432,7 @@ Após realizar essas configurações iniciais, não será necessário repeti-las
   
   <kbd><img src="https://github.com/user-attachments/assets/03392b6c-c098-4c1f-97f4-9fccd245c986" width="600px"></kbd>
   
-  <h2>Configurando o See Music</h2>
+  <h2>See Music</h2>
   
   Para importar o arquivo MIDI previamente salvo pelo REAPER, siga as instruções na interface do software. Clique no ícone de adição ("+") localizado no canto superior esquerdo da tela (seta 1) e selecione o arquivo MIDI desejado para importação. Essa ação permite integrar o conteúdo musical gravado anteriormente ao ambiente de trabalho do software, facilitando o prosseguimento das etapas de edição e visualização sincronizada com a performance musical.
   
@@ -452,7 +452,7 @@ Após realizar essas configurações iniciais, não será necessário repeti-las
   
   Caso esteja utilizando a versão gratuita do programa, o vídeo será renderizado com uma marca d'água.
   
-  <h2>Configurando o DaVinci Resolve</h2>
+  <h2>DaVinci Resolve</h2>
   
   No software, importe o vídeo da gravação do piano e o vídeo gerado pelo SeeMusic. É necessário cortar a parte inferior do vídeo de visualização utilizando a função de "cropping", de modo que ele possa ser posicionado acima do piano para criar uma conexão visual coesa.
   
