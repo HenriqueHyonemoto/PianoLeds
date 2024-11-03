@@ -51,7 +51,7 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
   - [Midi-OX](#midiox-cfg)
   - [HairlessMIDI](#hairlessmidi-cfg)
 - [Configurando os Softwares para Edição de Vídeo](#configurando-os-softwares-para-edição-de-vídeo)
-  - [Configurando o Reaper](#reaper)
+  - [Reaper](#reaper-cfg)
     - [Gravando e Exportando um Arquivo MIDI](#gravando-e-exportando-um-arquivo-midi)
     - [Renderizando o Áudio da Performance](#renderizando-o-áudio-da-performance)
   - [See Music](#see-music)
@@ -173,7 +173,7 @@ Outros programas podem ser utilizados para essas funções.
 <kbd> <a href="#"><img src="https://github.com/user-attachments/assets/95e7d65a-0c0d-43bd-9375-22628bd457fd" width="600px" alt="Piano VST"> </a> </kbd>
 
 Caso não consiga gravar um áudio de alta qualidade do seu piano, você pode utilizar bibliotecas ou VSTs de piano para obter um som limpo e claro. Busque por "Free Piano VST" para encontrar softwares gratuitos, ou opte por opções pagas.<br><br>
-Para importar no <a href="#reaper">Reaper</a>, o VST precisa ser instalado como plugin. O processo de instalação pode variar conforme o software.
+Para importar no [Reaper](#gravador-midi-e-editor-de-áudio), o VST precisa ser instalado como plugin. O processo de instalação pode variar conforme o software.
 
 </ul>
 
@@ -381,7 +381,7 @@ Após realizar essas configurações iniciais, não será necessário repeti-las
 
 <h1>Configurando os Softwares para Edição de Vídeo</h1>
 <ul>
-  <h2>Reaper</h2>
+  <h2 name="reaper-cfg">Reaper</h2>
   
   <h3>Gravando e Exportando um Arquivo MIDI</h3>
   
