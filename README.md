@@ -20,6 +20,7 @@ Este repositório oferece um guia passo a passo para você aprender a:
 Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias criações!
 
 <!-- TOC -->
+<h1>Índice</h1>
 - [Hardwares Utilizados](#hardwares-utilizados)
   - [Arduino: Leonardo](#arduino-leonardo)
   - [Fita LED Endereçável: WS2812B](#fita-led-endereçável-ws2812b)
