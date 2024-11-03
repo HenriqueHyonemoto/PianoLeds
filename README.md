@@ -22,15 +22,10 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
 <!-- TOC -->
 - [Menu de Navegação](#Menu-de-Navegação)
     - [Hardwares Utilizados](#hardwares-utilizados)
-      - [Arduino Leonardo](#arduino:-leonardo)
-    - [Usage](#usage)
-    - [What's New?](#whats-new)
-    - [Question](#question)
-    - [License](#license)
-    - [Links](#links)
+
 <!-- /TOC -->
 
-<h1 id="hardwares-utilizados">Hardwares Utilizados</h1>
+<h1>Hardwares Utilizados</h1>
 
 ## Arduino: Leonardo
 
