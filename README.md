@@ -46,10 +46,10 @@ Sinta-se à vontade para explorar, contribuir e compartilhar suas próprias cria
     - [Grupo 2](#grupo-2)
   - [Hub USB](#hub-usb)
 - [Configurando os Softwares para Controle de LEDs](#configurando-os-softwares-para-controle-de-leds)
-  - [Arduino IDE](#arduino-ide-1)
-  - [loopMIDI](#loopmidi-1)
-  - [Midi-OX](#midi-ox-1)
-  - [HairlessMIDI](#hairlessmidi-1)
+  - [Arduino IDE](#arduino-ide-cfg)
+  - [loopMIDI](#loopmidi-cfg)
+  - [Midi-OX](#midiox-cfg)
+  - [HairlessMIDI](#hairlessmidi-cfg)
 - [Configurando os Softwares para Edição de Vídeo](#configurando-os-softwares-para-edição-de-vídeo)
   - [Configurando o Reaper](#reaper)
     - [Gravando e Exportando um Arquivo MIDI](#gravando-e-exportando-um-arquivo-midi)
@@ -287,7 +287,7 @@ A versão gratuita permite fazer todas as edições necessárias para a produç�
 <kbd> <img src="https://github.com/user-attachments/assets/bed53266-9ea8-43e8-80cf-7427a717f536" width="600px" alt="Diagrama de Software"> </kbd>
 </div>
 
-<h2>Arduino IDE</h2>
+<h2 name="arduino-ide-cfg">Arduino IDE</h2>
 
 Escolha algum <a href="#">"sketch"</a> deste repositório e abra-o na <a href="https://www.arduino.cc/en/software">Arduino IDE</a>.<br>
 
@@ -330,7 +330,7 @@ Se essa mensagem que <ins>parece</ins> um erro for mostrada, isso indica que o c
 
 </ul>
 
-<h2>loopMIDI</h2>
+<h2 name="loopmidi-cfg">loopMIDI</h2>
 <ul>
 
 O loopMIDI é utilizado para criar portas MIDI virtuais. Clique no botão "Add Port" (seta 1), como mostrado abaixo, para adicionar novas portas MIDI.
@@ -345,7 +345,7 @@ Para excluir uma porta, selecione-a e clique no botão de menos. O botão quadra
 
 </ul>
 
-<h2>Midi-OX</h2>
+<h2 name="midiox-cfg">Midi-OX</h2>
 <ul>
   
 Para configurar o MIDI-OX, abra o menu “Options” e selecione “MIDI Devices” (seta 1).
@@ -364,7 +364,7 @@ Toque as teclas do seu instrumento; as notas devem aparecer no prompt, conforme 
 
 </ul>
 
-<h2>HairlessMIDI</h2>
+<h2 name="hairlessmidi-cfg">HairlessMIDI</h2>
 <ul>
   
 No Hairless MIDI, selecione a porta COM do Arduino em "Serial Port" (seta 1), conforme ilustrado na figura abaixo.
