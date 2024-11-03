@@ -469,6 +469,10 @@ Após realizar essas configurações iniciais, não será necessário repeti-las
 <li>Você pode definir valores mínimos e máximos de RGB para evitar que todos os valores fiquem muito baixos, o que poderia resultar em uma cor "apagada".</li>
 <kbd><img src="https://github.com/user-attachments/assets/fdfce029-edfd-49b0-b62b-700b20aefa90" width="400px"></kbd>
 </ul>
+  <br>
+  
+  > [!NOTE]
+  > O arquivo "sketch_PianoLeds" é apenas o arquivo original, onde eu testei todos os códigos juntos, antes de separá-los para deixar mais organizado e fácil de utilizar. Ignore este arquivo!
 </ul>
 
 <h1>Como Colocar o Sistema para Funcionar Novamente?</h1>
@@ -479,7 +483,9 @@ Após realizar essas configurações iniciais, não será necessário repeti-las
     <li><strong>MIDI-OX</strong>: Normalmente, é suficiente deixar aberto (pressione algumas teclas do instrumento; se aparecerem mensagens de saída, está tudo certo). Caso contrário, pode ser necessário reconfigurá-lo.</li>
     <li><strong>Hairless MIDI</strong>: Às vezes, é preciso selecionar a porta em "MIDI In" e o Arduino em "Serial Port".</li>
   </ul>
+
 </ul>
+
 
 <h1>Obrigado!</h1>
 <p>Sinta-se à vontade para criar forks com melhorias nos códigos ou criar novos modos de cores!</p>
