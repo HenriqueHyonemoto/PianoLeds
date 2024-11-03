@@ -272,7 +272,7 @@ Pressione o botão "Verify/Compile" (ícone 1) para compilar e verificar o códi
 
 <kbd> <a href="#"><img src="https://github.com/user-attachments/assets/030068bc-08c4-4330-b7b2-4a57ffeee5d1" width="400px" alt="Botões de Compilar e Upload"> </a> </kbd>
 
-Se uma mensagem de erro aparecer como na imagem abaixo, isso indica que o código foi carregado com sucesso.
+Se essa mensagem que <ins>parece</ins> um erro for mostrada, isso indica que o código foi carregado com sucesso.
 
 <kbd> <a href="#"><img src="https://github.com/user-attachments/assets/a02d5cb9-e14d-4275-bd33-5f062c91d6c8" width="800px" alt="Mensagem de erro bem-sucedido"> </a> </kbd>
 
@@ -296,7 +296,7 @@ Para excluir uma porta, selecione-a e clique no botão de menos. O botão quadra
 <h2>Midi-OX</h2>
 <ul>
   
-Para configurar o MIDI-OX, abra o menu “Options” (seta 1) e selecione “MIDI Devices”.
+Para configurar o MIDI-OX, abra o menu “Options” e selecione “MIDI Devices” (seta 1).
 
 <kbd> <img src="https://github.com/user-attachments/assets/2486d56e-ca28-4565-b262-b073e08d458b" width="600px" alt="Configurando dispositivos MIDI"> </kbd>
 
@@ -411,7 +411,9 @@ Após realizar essas configurações iniciais, não será necessário repeti-las
   
   <kbd><img src="https://github.com/user-attachments/assets/1dcd58f1-1284-4696-b367-584817ceb795" width="600px"></kbd>
   
-  Para renderizar o vídeo, clique no ícone conforme indicado pela seta 1 da figura abaixo. O segundo passo é a seleção das predefinições de vídeo, que podem ser para redes como YouTube e TikTok (seta 2). Em seguida, clique em "Add to Render Queue" (seta 3) para adicionar o vídeo à fila de renderização. Finalmente, clique em "Render All" (seta 4) para iniciar o processo de salvamento do vídeo. Observe que esse processo pode ser demorado, dependendo das configurações de vídeo selecionadas.
+  Para renderizar o vídeo, clique no ícone conforme indicado pela (seta 1) da figura abaixo. O segundo passo é a seleção das predefinições de vídeo, que podem ser para redes como YouTube e TikTok (seta 2). Em seguida, clique em "Add to Render Queue" (seta 3) para adicionar o vídeo à fila de renderização. Finalmente, clique em "Render All" (seta 4) para iniciar o processo de salvamento do vídeo. Observe que esse processo pode ser demorado, dependendo das configurações de vídeo selecionadas.
+
+  Você também pode alterar o nome do arquivo em 'File Name', e o diretório em que ele será salvo em 'Location' (próximo às setas 2)
   
   <kbd><img src="https://github.com/user-attachments/assets/2cf93ff0-b67b-4e72-bc4b-9c7747fab600" width="600px"></kbd>
   
