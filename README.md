@@ -114,7 +114,7 @@ Transmite as mensagens MIDI do piano para a porta serial COM do Arduino.
 <a id="reaper" href="https://www.reaper.fm/">Reaper:</a> Gravador MIDI e editor de áudio. <br>
   
 Você precisará do Reaper para gravar sua performance em formato MIDI (nota por nota tocada), gerando a base para a visualização em vídeo. Ele também permite renderizar o áudio, caso não grave o som fisicamente.<br><br>
-Outros programas podem ser utilizados para essa função.
+Outros programas podem ser utilizados para essas funções.
 
 </ul>
 
